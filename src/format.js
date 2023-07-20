@@ -9,6 +9,7 @@ const words = JSON.parse(fs.readFileSync('words.json', 'utf8'));
 
 
 const newWords = words
+.filter((el)=> el.use)
 .filter((el)=> el.level === "初級")
 .filter((el)=> /^[a-zA-Z]+$/.test(el.en.trim()) )
 .map((el)=>{
