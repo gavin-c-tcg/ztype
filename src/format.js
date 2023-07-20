@@ -1,6 +1,7 @@
 import request from 'request';
 import { load } from 'cheerio';
 import fs from 'fs';
+import { log } from 'console';
 
 
 // read  word.json 
@@ -20,13 +21,20 @@ const newWords = words
 		.replace(/\[[^\[\]]*\]/g,"")
 		.split(";")
 		.map((el) => el.trim())
-		.map((el) => el.replace(/\([^\(\)]*\)/g,"").trim());
+		.map((el) => el.replace(/\([^\(\)]*\)/g,"").trim())
+		.sort((a,b)=> a.length - b.length)
+		;
+
 	// 字數最少的
 	const zh = zhList.reduce((a,b)=> a.length > b.length ? b : a);
+	// 字數最少的 可以了話要字數大於等於2
+	const zh2 = zhList.find((el)=> el.length >= 2) || zh;
+	// console.log(zh2.length,zh2);
+
 	return  {
 		// el.en.replace a-z A-Z
 		en: el.en.trim(),
-		zh:zh,
+		zh:zh2,
 	}
 })
 
