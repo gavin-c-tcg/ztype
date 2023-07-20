@@ -1,0 +1,20 @@
+{
+  "name": "ztype",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gavin-c-tcg/ztype.git",
+  "author": "gavin ted <youremail@yourdomain.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "fetch.word": "node src/fetch.js",
+    "format.word": "node src/format.js",
+    "start": "open 'http://localhost:5001' && serve ./public  -l 5001"
+  
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "request": "^2.88.2",
+    "serve": "^14.2.0"
+  }
+}

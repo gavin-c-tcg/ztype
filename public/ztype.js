@@ -3605,28 +3605,13 @@ ig.module('game.menus.title').requires('game.menus.base', 'game.menus.detailed-s
             ig.game.setGame();
         },
     });
-    MenuItemOnlineVersion = MenuItem.extend({
-        getText: function() {
-            return 'online version';
-        },
-        ok: function() {
-            window.location.href='http://zty.pe/';
-        },
-    });
-    MenuItemAboutTrainer = MenuItem.extend({
-        getText: function() {
-            return 'about trainer';
-        },
-        ok: function() {
-            window.location.href='https://github.com/KevinWang15/ztype-trainer';
-        },
-    });
+    
     MenuTitle = Menu.extend({
         itemClasses: [],
         scale: 0.75,
         y: 0,
         init: function() {
-            this.itemClasses = [MenuItemNormalMode,MenuItemOnlineVersion,MenuItemAboutTrainer];
+            this.itemClasses = [MenuItemNormalMode,];
             
             this.parent();
             this.items[0].y = 740;
@@ -5049,43 +5034,47 @@ ig.module('game.words.en').defines(function() {
     //     11: ['accordingly', 'advertising', 'alternative', 'application', 'appreciated', 'appreciates', 'appropriate', 'arrangement', 'associating', 'association', 'authorities', 'calculation', 'circulation', 'combination', 'communicate', 'competition', 'complaining', 'complicated', 'complicates', 'composition', 'connections', 'consequence', 'considering', 'consistency', 'constraints', 'consumption', 'continually', 'controlling', 'conventions', 'definitions', 'demonstrate', 'description', 'determining', 'development', 'differences', 'differently', 'disappeared', 'discouraged', 'discourages', 'discovering', 'discussions', 'distinction', 'distinguish', 'distributed', 'distributes', 'documenting', 'educational', 'effectively', 'electronics', 'embarrassed', 'embarrasses', 'encountered', 'encouraging', 'engineering', 'environment', 'essentially', 'established', 'establishes', 'experienced', 'experiences', 'experiments', 'explanation', 'forthcoming', 'fortunately', 'fundamental', 'imagination', 'immediately', 'implemented', 'implication', 'importantly', 'improvement', 'independent', 'individuals', 'information', 'institution', 'instruction', 'intelligent', 'interesting', 'interpreted', 'introducing', 'investigate', 'maintaining', 'mathematics', 'meaningless', 'necessarily', 'observation', 'opportunity', 'performance', 'permanently', 'possibility', 'potentially', 'practically', 'preparation', 'programmers', 'publication', 'punctuation', 'recognition', 'recommended', 'registering', 'regulations', 'remembering', 'replacement', 'represented', 'requirement', 'responsible', 'restricting', 'significant', 'statistical', 'substantial', 'suggestions', 'temperature', 'temporarily', 'terminology', 'theoretical', 'traditional', 'transferred', 'translating', 'translation', 'understands', 'unfortunate', 'unnecessary'],
     //     12: ['accidentally', 'alternatives', 'announcement', 'applications', 'appreciating', 'arrangements', 'broadcasting', 'calculations', 'circumstance', 'combinations', 'complicating', 'consequences', 'consequently', 'considerable', 'considerably', 'continuation', 'continuously', 'contribution', 'conventional', 'conversation', 'deliberately', 'descriptions', 'difficulties', 'disadvantage', 'disappearing', 'discouraging', 'distributing', 'distribution', 'embarrassing', 'encountering', 'establishing', 'experiencing', 'experimental', 'guaranteeing', 'implementing', 'implications', 'improvements', 'incidentally', 'incompatible', 'inconsistent', 'individually', 'institutions', 'instructions', 'intelligence', 'interpreting', 'intervention', 'introduction', 'manipulation', 'mathematical', 'nevertheless', 'occasionally', 'particularly', 'professional', 'recommending', 'relationship', 'representing', 'requirements', 'respectively', 'significance', 'simultaneous', 'sophisticate', 'specifically', 'successfully', 'sufficiently', 'transferring', 'unacceptable', 'universities', 'unreasonable']
     // };
-    ig.WORDS.EN = {
-        2: ['am', 'an',],
-        3: ['act', 'add',],
-        4: ['able', 'acts',],
-        5: ['about', 'above',],
-        6: ['accept', 'access',],
-        7: ['ability', 'absence',],
-        8: ['absolute', 'academic',],
-        9: ['abilities', 'accepting',],
-        10: ['absolutely', 'acceptable',],
-        11: ['accordingly', 'advertising',],
-        12: ['accidentally', 'alternatives',]
-    };
-    ig.WORDS.MAP = {
-        an:'一個',
-        am:'是',
-        add:'添加',
-        act:'行為',
-        acts:'行為',
-        able:'有能力的',
-        above:'多於',
-        about:'關於',
-        access:'使用權',
-        accept:'接受',
-        absence:'缺席',
-        ability:'能力',
-        academic:'學術的',
-        absolute:'絕對',
-        accepting:'接受',
-        abilities:'能力',
-        acceptable:'可以接受',
-        absolutely:'絕對地',
-        advertising:'廣告',
-        accordingly:'因此',
-        alternative:'選擇',
-        accidentally:'偶然',
-    }
+    
+    // ig.WORDS.EN = {
+    //     2: ['am', 'an',],
+    //     3: ['act', 'add',],
+    //     4: ['able', 'acts',],
+    //     5: ['about', 'above',],
+    //     6: ['accept', 'access',],
+    //     7: ['ability', 'absence',],
+    //     8: ['absolute', 'academic',],
+    //     9: ['abilities', 'accepting',],
+    //     10: ['absolutely', 'acceptable',],
+    //     11: ['accordingly', 'advertising',],
+    //     12: ['accidentally', 'alternatives',]
+    // };
+    // ig.WORDS.MAP = {
+    //     an:'一個',
+    //     am:'是',
+    //     add:'添加',
+    //     act:'行為',
+    //     acts:'行為',
+    //     able:'有能力的',
+    //     above:'多於',
+    //     about:'關於',
+    //     access:'使用權',
+    //     accept:'接受',
+    //     absence:'缺席',
+    //     ability:'能力',
+    //     academic:'學術的',
+    //     absolute:'絕對',
+    //     accepting:'接受',
+    //     abilities:'能力',
+    //     acceptable:'可以接受',
+    //     absolutely:'絕對地',
+    //     advertising:'廣告',
+    //     accordingly:'因此',
+    //     alternative:'選擇',
+    //     accidentally:'偶然',
+    // }
+
+    ig.WORDS.EN = words.set;
+    ig.WORDS.MAP = words.map;
 });
 
 // lib/game/main.js
