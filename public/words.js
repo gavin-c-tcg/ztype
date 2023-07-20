@@ -4318,21 +4318,17 @@ var words = {
       "traditional"
     ],
     "12": [
+      "congratulation",
       "conversation",
+      "granddaughter",
       "handkerchief",
       "hippopotamus",
+      "international",
       "kindergarten",
       "organization",
       "photographer",
       "refrigerator",
       "Thanksgiving"
-    ],
-    "13": [
-      "granddaughter",
-      "international"
-    ],
-    "14": [
-      "congratulation"
     ]
   }
 }

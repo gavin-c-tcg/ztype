@@ -40,7 +40,7 @@ const map = newWords.reduce((acc,el)=>{
 
 
 const set = newWords.reduce((acc,el)=>{
-	const key = el.en.length;
+	const key = el.en.length > 12 ? 12 : el.en.length;
 	if(!acc[key]) {
 		acc[key] = [];
 	}

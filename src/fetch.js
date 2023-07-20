@@ -24,6 +24,7 @@ async function  parse(url) {
 				en:$(el).find("td").get(3)?.children[0].data,
 				zh:$(el).find("td").get(5)?.children[0].data,
 				level: $(el).find("td").get(1)?.children[0].data,
+				use: true,
 		}
 	}).filter((i,el)=>{
 		return el.en && el.zh && el.level;
@@ -44,6 +45,8 @@ for(const key of a2z) {
 
 console.log(words.length);
 
+
+words.sort((a,b)=> a.level.localeCompare(b.level));
 // save to file json
 
 fs.writeFile("words.json", JSON.stringify(words,null,2), function(err) {

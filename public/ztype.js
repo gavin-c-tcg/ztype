@@ -4212,7 +4212,8 @@ ig.module('game.entities.enemy-missle').requires('game.entities.enemy').defines(
                 this.currentAnim.angle = this.angle - Math.PI / 2;
             }
             this.parent();
-        }
+        },
+        ...Config.EntityEnemyMissle,
     });
 });
 
@@ -4248,7 +4249,8 @@ ig.module('game.entities.enemy-mine').requires('game.entities.enemy').defines(fu
             this.angle = this.angleTo(ig.game.player);
             this.parent();
             this.currentAnim.angle += 2 * ig.system.tick;
-        }
+        },
+        ...Config.EntityEnemyMissle,
     });
 });
 
@@ -4300,7 +4302,8 @@ ig.module('game.entities.enemy-destroyer').requires('game.entities.enemy', 'game
                     });
                 }
             }
-        }
+        },
+        ...Config.EntityEnemyDestroyer,
     });
 });
 
@@ -4360,7 +4363,8 @@ ig.module('game.entities.enemy-oppressor').requires('game.entities.enemy').defin
                 }
                 this.shootTimer.reset();
             }
-        }
+        },
+        ...Config.EntityEnemyOppressor,
     });
     EntityEnemyBullet = EntityEnemy.extend({
         size: {
@@ -4383,7 +4387,8 @@ ig.module('game.entities.enemy-oppressor').requires('game.entities.enemy').defin
             this.addAnim('idle', 1, [0]);
             this.angle = settings.angle;
             this.currentAnim.angle = this.angle - Math.PI / 2;
-        }
+        },
+        ...Config.EntityEnemyBullet,
     });
 });
 
@@ -5491,7 +5496,7 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             this.nextWave();
             ig.music.next();
             this.spawnSound.play();
-            this.emps = 3;
+            this.emps = Config.emps;
         },
         setGameOver: function() {
             if (this.score > this.personalBest) {
