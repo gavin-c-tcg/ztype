@@ -3,13 +3,13 @@
     "en": "a",
     "zh": "[冠詞] 一個;一種",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "A.M.",
     "zh": "[副詞] 上午; [副詞] 上午",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ability",
@@ -21,13 +21,13 @@
     "en": "able",
     "zh": "[形容詞] 能;有能力的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "about",
     "zh": "[副詞] 在四周;在附近;大約; [介系詞] 大約;關於",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "above",
@@ -81,25 +81,25 @@
     "en": "action",
     "zh": "[名詞] 動作",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "active",
     "zh": "[形容詞] 活躍的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "activity",
     "zh": "[名詞] 活動",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "actor",
     "zh": "[名詞] 男演員",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "actress",
@@ -117,13 +117,13 @@
     "en": "add",
     "zh": "[動詞] 添加",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "addition",
     "zh": "[名詞] 加;附加",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "address",
@@ -201,19 +201,19 @@
     "en": "after",
     "zh": "[介系詞] 在…之後; [連接詞] 在...之後",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "afternoon",
     "zh": "[名詞] 下午;午後",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "again",
     "zh": "[副詞] 再一次",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "against",
@@ -225,19 +225,19 @@
     "en": "age",
     "zh": "[動詞] 使變老;使(酒之)味道變醇;使成熟; [名詞] 年齡",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ago",
     "zh": "[副詞] 以前",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "agree",
     "zh": "[動詞] 同意",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ahead",
@@ -255,7 +255,7 @@
     "en": "aids",
     "zh": "[名詞] 愛滋病",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "aim",
@@ -267,7 +267,7 @@
     "en": "air",
     "zh": "[名詞] 空氣",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "aircraft",
@@ -279,19 +279,19 @@
     "en": "airline",
     "zh": "[名詞] 航空公司",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "airplane",
     "zh": "[名詞] 飛機",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "airport",
     "zh": "[名詞] 飛機場",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "alarm",
@@ -321,13 +321,13 @@
     "en": "all",
     "zh": "[形容詞] 所有的;全部; [副詞] 完全地;(比分等)雙方相等; [代名詞] 一切",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "allow",
     "zh": "[動詞] 允許",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "almost",
@@ -363,13 +363,13 @@
     "en": "already",
     "zh": "[副詞] 已經",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "also",
     "zh": "[副詞] 也",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "although",
@@ -387,7 +387,7 @@
     "en": "always",
     "zh": "[副詞] 總是",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "am",
@@ -405,13 +405,13 @@
     "en": "America",
     "zh": "[名詞] 美國;美洲",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "American",
     "zh": "[形容詞] 美國的;美洲的; [名詞] 美國人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "among",
@@ -423,13 +423,13 @@
     "en": "amount",
     "zh": "[名詞] 總數",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "an",
     "zh": "[冠詞] 一個;一種",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ancient",
@@ -441,7 +441,7 @@
     "en": "and",
     "zh": "[連接詞] 和；及；而；就",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "angel",
@@ -477,43 +477,43 @@
     "en": "another",
     "zh": "[形容詞] 另一個; [代名詞] 另一個",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "answer",
     "zh": "[動詞] 回答; [名詞] 答案",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ant",
     "zh": "[名詞] 螞蟻",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "any",
     "zh": "[形容詞] 任何的; [副詞] (用於疑問句,否定句,if子句中)少許,稍微; [代名詞] 任何一個",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "anybody",
     "zh": "[代名詞] 任何人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "anyone",
     "zh": "[代名詞] 任何人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "anything",
     "zh": "[代名詞] 任何事物",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "anyway",
@@ -525,7 +525,7 @@
     "en": "anywhere",
     "zh": "[副詞] 任何地方",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "apartment",
@@ -555,13 +555,13 @@
     "en": "apple",
     "zh": "[名詞] 蘋果",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "apply",
     "zh": "[動詞] 塗,敷;應用",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "appreciate",
@@ -579,19 +579,19 @@
     "en": "are",
     "zh": "[動詞] 是,在;  be 動詞第一、第三人稱, 複數, 現在式; 第二人稱，單、複數, 現在式",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "area",
     "zh": "[名詞] 地區;面積",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "aren't",
     "zh": "[縮短形] are not",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "argue",
@@ -615,13 +615,13 @@
     "en": "army",
     "zh": "[名詞] 軍隊;大群",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "around",
     "zh": "[副詞] 到處,四處;周圍,附近;環繞;大約; [介系詞] 差不多;環繞",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "arrange",
@@ -645,13 +645,13 @@
     "en": "art",
     "zh": "[名詞] 藝術",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "article",
     "zh": "[名詞] 文章;報導；論文;物件;條款",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "artist",
@@ -663,13 +663,13 @@
     "en": "as",
     "zh": "[副詞] 跟...一樣地,同樣地;如同;例如; [介系詞] 以…的身份；作為; [連接詞] 依照;當...時",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Asia",
     "zh": "[名詞] 亞洲",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Asian",
@@ -681,7 +681,7 @@
     "en": "ask",
     "zh": "[動詞] 問",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "asleep",
@@ -705,7 +705,7 @@
     "en": "at",
     "zh": "[介系詞] 在",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "attack",
@@ -747,13 +747,13 @@
     "en": "Australia",
     "zh": "[名詞] 澳大利亞",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Australian",
     "zh": "[形容詞] 澳大利亞(人)的; [名詞] 澳大利亞人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "autumn",
@@ -771,7 +771,7 @@
     "en": "avoid",
     "zh": "[動詞] 避免",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "aware",
@@ -783,19 +783,19 @@
     "en": "away",
     "zh": "[副詞] 離開",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "baby",
     "zh": "[名詞] 嬰兒",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "back",
     "zh": "[形容詞] 後面的;拖欠的;過去的; [動詞] 向後;追溯;回覆;贊助; [副詞] 回原處; [名詞] 背部;後面",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "backward",
@@ -813,7 +813,7 @@
     "en": "bad",
     "zh": "[形容詞] 壞的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "badminton",
@@ -825,7 +825,7 @@
     "en": "bag",
     "zh": "[名詞] 袋子",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bake",
@@ -873,13 +873,13 @@
     "en": "bank",
     "zh": "[名詞] 銀行;堤;岸",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "banker",
     "zh": "[名詞] 銀行家;莊家",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bar",
@@ -909,7 +909,7 @@
     "en": "base",
     "zh": "[動詞] 以...為基地; [名詞] 基;底;基部",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "baseball",
@@ -933,7 +933,7 @@
     "en": "basis",
     "zh": "[名詞] 基礎",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "basket",
@@ -945,7 +945,7 @@
     "en": "basketball",
     "zh": "[名詞] 籃球",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bat",
@@ -957,19 +957,19 @@
     "en": "bath",
     "zh": "[名詞] 洗澡",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bathroom",
     "zh": "[名詞] 廁所;浴室",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "be",
     "zh": "[動詞] 是;要;有;在",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "beach",
@@ -987,7 +987,7 @@
     "en": "bear",
     "zh": "[動詞] 承受; [名詞] 熊",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "beard",
@@ -1005,37 +1005,37 @@
     "en": "beautiful",
     "zh": "[形容詞] 漂亮的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "because",
     "zh": "[連接詞] 因為",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "become",
     "zh": "[動詞] 變成",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bed",
     "zh": "[名詞] 床",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bedroom",
     "zh": "[名詞] 臥房",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bee",
     "zh": "[名詞] 蜜蜂",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "beef",
@@ -1053,13 +1053,13 @@
     "en": "before",
     "zh": "[副詞] 較早;以前;曾經;在前;向前; [介系詞] 在…之前; [連接詞] 在...以前;與其...寧可;否則,要不然",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "begin",
     "zh": "[動詞] 開始",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "beginner",
@@ -1107,7 +1107,7 @@
     "en": "belong",
     "zh": "[動詞] 屬於",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "below",
@@ -1143,19 +1143,19 @@
     "en": "best",
     "zh": "[形容詞] 最好的;最熟練的;最適當的; [副詞] 最好地;最適當地;最;極",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "better",
     "zh": "[形容詞] 較佳的;更好的;更適當的; [副詞] 更好地;更適當地",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "between",
     "zh": "[介系詞] 在…和…之間",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "beyond",
@@ -1167,13 +1167,13 @@
     "en": "bicycle",
     "zh": "[名詞] 腳踏車",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "big",
     "zh": "[形容詞] 大的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bill",
@@ -1191,13 +1191,13 @@
     "en": "bird",
     "zh": "[名詞] 鳥",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "birthday",
     "zh": "[名詞] 生日",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bit",
@@ -1209,7 +1209,7 @@
     "en": "bite",
     "zh": "[動詞] 咬; [名詞] 咬,叮",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bitter",
@@ -1299,7 +1299,7 @@
     "en": "body",
     "zh": "[名詞] 身體",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "boil",
@@ -1323,7 +1323,7 @@
     "en": "book",
     "zh": "[動詞] 預訂;預雇;預約;登記; [名詞] 書本",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bookcase",
@@ -1353,19 +1353,19 @@
     "en": "boss",
     "zh": "[名詞] 老闆",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "both",
     "zh": "[形容詞] 兩者; [副詞] 並;又;兩者皆; [代名詞] 兩者(都)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bother",
     "zh": "[動詞] 煩擾; [名詞] 煩惱,麻煩;使人煩惱的人(或事物)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bottle",
@@ -1377,7 +1377,7 @@
     "en": "bottom",
     "zh": "[形容詞] 最低的;最後的,最下的; [名詞] 底部;屁股",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "bow",
@@ -1401,13 +1401,13 @@
     "en": "box",
     "zh": "[名詞] 箱;盒;匣",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "boy",
     "zh": "[名詞] 男孩",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "brain",
@@ -1419,7 +1419,7 @@
     "en": "branch",
     "zh": "[名詞] 樹枝;支部",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "brave",
@@ -1437,13 +1437,13 @@
     "en": "break",
     "zh": "[動詞] 斷裂;中斷;打破（記錄）; [名詞] 暫停",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "breakfast",
     "zh": "[名詞] 早餐",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "brick",
@@ -1479,13 +1479,13 @@
     "en": "Britain",
     "zh": "[名詞] 大不列顛;英國",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "British",
     "zh": "[形容詞] 英國人的;英國的; [名詞] 英國英語",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "broad",
@@ -1503,7 +1503,7 @@
     "en": "brother",
     "zh": "[名詞] 兄;弟",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "brown",
@@ -1539,7 +1539,7 @@
     "en": "bug",
     "zh": "[名詞] 小蟲",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "build",
@@ -1581,31 +1581,31 @@
     "en": "bus",
     "zh": "[名詞] 公車",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "business",
     "zh": "[名詞] 商業;事",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "businessman",
     "zh": "[名詞] 商人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "busy",
     "zh": "[形容詞] 忙碌的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "but",
     "zh": "[介系詞] 除...以外; [連接詞] 但是",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "butter",
@@ -1629,13 +1629,13 @@
     "en": "buy",
     "zh": "[動詞] 買",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "by",
     "zh": "[副詞] 經過;過去;在旁邊; [介系詞] 經由",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "cabbage",
@@ -1671,19 +1671,19 @@
     "en": "cake",
     "zh": "[名詞] 蛋糕",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "calendar",
     "zh": "[名詞] 日曆;月曆;行事曆",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "call",
     "zh": "[動詞] 喊;打電話;稱呼; [名詞] 呼叫;請求;通話;(紙牌)叫牌;判決",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "calm",
@@ -1695,13 +1695,13 @@
     "en": "camera",
     "zh": "[名詞] 照相機",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "camp",
     "zh": "[動詞] 露營; [名詞] 營地",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "campus",
@@ -1713,13 +1713,13 @@
     "en": "can",
     "zh": "[助動詞] 能,會;可能;可以;必須",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Canada",
     "zh": "[名詞] 加拿大",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Canadian",
@@ -1731,7 +1731,7 @@
     "en": "cancel",
     "zh": "[動詞] 取消",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "cancer",
@@ -1749,13 +1749,13 @@
     "en": "candy",
     "zh": "[名詞] 糖果",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "cannot",
     "zh": "[助動詞] 不能",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "can't",
@@ -1779,19 +1779,19 @@
     "en": "car",
     "zh": "[名詞] 汽車",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "card",
     "zh": "[名詞] 卡片",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "care",
     "zh": "[動詞] 關心;照顧; [名詞] 看護;保護;照料;管理;關懷;小心",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "career",
@@ -1803,7 +1803,7 @@
     "en": "careful",
     "zh": "[形容詞] 小心的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "careless",
@@ -1833,13 +1833,13 @@
     "en": "cartoon",
     "zh": "[名詞] 卡通",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "case",
     "zh": "[名詞] 盒子;案件",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "cash",
@@ -1863,13 +1863,13 @@
     "en": "cat",
     "zh": "[名詞] 貓",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "catch",
     "zh": "[動詞] 接(球);捕獲; [名詞] 抓住,捕捉;接球;把手;圈套",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "cause",
@@ -1881,7 +1881,7 @@
     "en": "CD",
     "zh": "[名詞] 激光唱片",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ceiling",
@@ -1911,7 +1911,7 @@
     "en": "center",
     "zh": "[動詞] 集中;居中; [名詞] 中心(點)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "centimeter",
@@ -1977,13 +1977,13 @@
     "en": "change",
     "zh": "[動詞] 改變;更改; [名詞] 零錢",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "channel",
     "zh": "[名詞] 管道;頻道",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "chapter",
@@ -2007,7 +2007,7 @@
     "en": "chart",
     "zh": "[名詞] 圖表",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "chase",
@@ -2031,7 +2031,7 @@
     "en": "check",
     "zh": "[動詞] 檢查; [名詞] 支票;買單",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "cheer",
@@ -2043,7 +2043,7 @@
     "en": "cheese",
     "zh": "[名詞] 起司;乳酪",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "chemical",
@@ -2061,7 +2061,7 @@
     "en": "chicken",
     "zh": "[名詞] 雞;雞肉",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "chief",
@@ -2073,7 +2073,7 @@
     "en": "child",
     "zh": "[名詞] 小孩",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "childhood",
@@ -2103,25 +2103,25 @@
     "en": "Chinese",
     "zh": "[形容詞] 中國的;中國人的; [名詞] 中文;中國人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "chocolate",
     "zh": "[名詞] 巧克力",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "choice",
     "zh": "[名詞] 選擇",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "choose",
     "zh": "[動詞] 選擇;挑選",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "chopstick",
@@ -2151,7 +2151,7 @@
     "en": "circle",
     "zh": "[名詞] 圓圈;集團",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "citizen",
@@ -2163,7 +2163,7 @@
     "en": "city",
     "zh": "[名詞] 都市",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "claim",
@@ -2181,7 +2181,7 @@
     "en": "class",
     "zh": "[名詞] 階級;班級;上課",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "classic",
@@ -2199,19 +2199,19 @@
     "en": "classmate",
     "zh": "[名詞] 同班同學",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "clean",
     "zh": "[形容詞] 乾淨的; [動詞] 打掃",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "clear",
     "zh": "[形容詞] 清楚的;晴朗的; [動詞] 使乾淨;收拾;交換票據",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "clerk",
@@ -2241,13 +2241,13 @@
     "en": "clock",
     "zh": "[名詞] 鐘",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "close",
     "zh": "[形容詞] 近的;密切的; [動詞] 關上; [副詞] 接近,靠近地;緊密地,緊緊地; [名詞] 結束,終止;(金融)收盤價",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "closet",
@@ -2271,7 +2271,7 @@
     "en": "club",
     "zh": "[名詞] 俱樂部;夜總會;社團",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "coach",
@@ -2301,25 +2301,25 @@
     "en": "coffee",
     "zh": "[名詞] 咖啡",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "coin",
     "zh": "[名詞] 硬幣",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Coke",
     "zh": "[名詞] 可口可樂",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "cold",
     "zh": "[形容詞] 寒冷的; [名詞] 感冒",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "collect",
@@ -2331,19 +2331,19 @@
     "en": "collection",
     "zh": "[名詞] 收集",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "college",
     "zh": "[名詞] 學院;大學",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "color",
     "zh": "[動詞] 著色;渲染;文飾;歪曲;影響; [名詞] 顏色",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "colorful",
@@ -2361,7 +2361,7 @@
     "en": "come",
     "zh": "[動詞] 到來",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "comfortable",
@@ -2379,7 +2379,7 @@
     "en": "command",
     "zh": "[動詞] 命令;掌握; 指揮;控制",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "comment",
@@ -2391,19 +2391,19 @@
     "en": "common",
     "zh": "[形容詞] 常見的;尋常的;普遍的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "company",
     "zh": "[名詞] 公司",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "compare",
     "zh": "[動詞] 比較",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "complain",
@@ -2415,7 +2415,7 @@
     "en": "complete",
     "zh": "[形容詞] 完整的；徹底的; [動詞] 完成",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "completion",
@@ -2427,7 +2427,7 @@
     "en": "computer",
     "zh": "[名詞] 電腦",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "concern",
@@ -2445,7 +2445,7 @@
     "en": "confirm",
     "zh": "[動詞] 確認",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "conflict",
@@ -2457,7 +2457,7 @@
     "en": "Confucius",
     "zh": "[名詞] 孔子",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "confuse",
@@ -2475,7 +2475,7 @@
     "en": "consider",
     "zh": "[動詞] 考慮",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "contact",
@@ -2487,13 +2487,13 @@
     "en": "contain",
     "zh": "[動詞] 包含;容納",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "continue",
     "zh": "[動詞] 繼續",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "contract",
@@ -2505,7 +2505,7 @@
     "en": "control",
     "zh": "[動詞] 控制; [名詞] 支配;控制;操縱裝置;指揮部",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "convenient",
@@ -2523,31 +2523,31 @@
     "en": "cook",
     "zh": "[動詞] 煮; [名詞] 廚師",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "cookie",
     "zh": "[名詞] 餅乾",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "cool",
     "zh": "[形容詞] 涼快的;很棒的;酷; [動詞] 使涼快;使冷卻",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "copy",
     "zh": "[動詞] 拷貝;抄襲; [名詞] 拷貝;副本",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "corn",
     "zh": "[名詞] 玉米",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "corner",
@@ -2589,25 +2589,25 @@
     "en": "could",
     "zh": "[助動詞] can 的過去式;能,可以",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "couldn't",
     "zh": "[縮短形] could not",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "count",
     "zh": "[動詞] 計算;數; [名詞] 計數;計算",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "country",
     "zh": "[名詞] 國家;鄉下",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "countryside",
@@ -2691,7 +2691,7 @@
     "en": "create",
     "zh": "[動詞] 創造",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "crime",
@@ -2733,7 +2733,7 @@
     "en": "cry",
     "zh": "[動詞] 哭叫; [名詞] 叫喊;呼叫;(一陣)哭",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "culture",
@@ -2787,31 +2787,31 @@
     "en": "customer",
     "zh": "[名詞] 顧客",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "cut",
     "zh": "[動詞] 切割;剪; [名詞] 傷口;刻痕;削減;近路;曠課",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "cute",
     "zh": "[形容詞] 可愛的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "dad",
     "zh": "[名詞] 父親",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "daily",
     "zh": "[形容詞] 每日的; [副詞] 每日",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "damage",
@@ -2823,13 +2823,13 @@
     "en": "dance",
     "zh": "[動詞] 跳舞; [名詞] 舞會",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "danger",
     "zh": "[名詞] 危險",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "dangerous",
@@ -2841,7 +2841,7 @@
     "en": "dark",
     "zh": "[形容詞] 黑暗的; [名詞] 黑暗,暗處;曖昧;隱晦",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "darken",
@@ -2853,13 +2853,13 @@
     "en": "data",
     "zh": "[名詞] 資料,數據",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "date",
     "zh": "[動詞] 約會; [名詞] 日期",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "daughter",
@@ -3021,13 +3021,13 @@
     "en": "depend",
     "zh": "[動詞] 依賴",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "describe",
     "zh": "[動詞] 描述",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "desert",
@@ -3051,7 +3051,7 @@
     "en": "desk",
     "zh": "[名詞] 書桌",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "dessert",
@@ -3069,7 +3069,7 @@
     "en": "develop",
     "zh": "[動詞] 發展",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "dial",
@@ -3099,13 +3099,13 @@
     "en": "didn't",
     "zh": "[縮短形] did not",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "die",
     "zh": "[動詞] 死",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "diet",
@@ -3153,7 +3153,7 @@
     "en": "dinner",
     "zh": "[名詞] 晚餐",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "dinosaur",
@@ -3201,7 +3201,7 @@
     "en": "discover",
     "zh": "[動詞] 發現",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "discuss",
@@ -3261,25 +3261,25 @@
     "en": "doctor",
     "zh": "[名詞] 醫生",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "document",
     "zh": "[名詞] 文件;證件",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "doesn't",
     "zh": "[縮短形] does not",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "dog",
     "zh": "[名詞] 狗",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "doll",
@@ -3291,7 +3291,7 @@
     "en": "dollar",
     "zh": "[名詞] 美元",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "dolphin",
@@ -3309,31 +3309,31 @@
     "en": "don't",
     "zh": "[縮短形] do not",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "door",
     "zh": "[名詞] 門",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "dot",
     "zh": "[名詞] 點;小圓點",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "double",
     "zh": "[形容詞] 雙重的; [動詞] 加倍; [名詞] 兩倍",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Double Tenth Day",
     "zh": "[片語] 雙十節",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "doubt",
@@ -3351,7 +3351,7 @@
     "en": "down",
     "zh": "[形容詞] 情緒低落,消沈;(分期付款的)第一期的; [副詞] 向下;下降;(境況)變差;減少,減弱; [介系詞] 向下; [名詞] 下降;蕭條;絨毛;有草丘陵地",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "downstairs",
@@ -3375,7 +3375,7 @@
     "en": "Dr.",
     "zh": "[縮寫] 醫生",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "dragon",
@@ -3387,7 +3387,7 @@
     "en": "Dragon-boat Festival",
     "zh": "[片語] 端午節",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "drama",
@@ -3399,7 +3399,7 @@
     "en": "draw",
     "zh": "[動詞] 畫;繪製;描寫",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "drawer",
@@ -3411,7 +3411,7 @@
     "en": "dream",
     "zh": "[動詞] 做(夢);想像; [名詞] 夢",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "dress",
@@ -3429,25 +3429,25 @@
     "en": "drink",
     "zh": "[動詞] 喝; [名詞] 飲料",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "drinking",
     "zh": "[名詞] 喝酒",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "drive",
     "zh": "[動詞] 開車; [名詞] 兜風;車程;幹勁;比賽",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "driver",
     "zh": "[名詞] 司機",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "drop",
@@ -3507,7 +3507,7 @@
     "en": "during",
     "zh": "[介系詞] 在…期間",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "duty",
@@ -3519,7 +3519,7 @@
     "en": "each",
     "zh": "[形容詞] 每個; [副詞] 各個(地);各自(地);每一個; [代名詞] 各個",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "eagle",
@@ -3537,7 +3537,7 @@
     "en": "early",
     "zh": "[形容詞] 早的;提早的; [副詞] 早;提早",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "earn",
@@ -3549,7 +3549,7 @@
     "en": "earth",
     "zh": "[名詞] 地球;土地",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "east",
@@ -3573,25 +3573,25 @@
     "en": "easy",
     "zh": "[形容詞] 容易的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "eat",
     "zh": "[動詞] 吃",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "edge",
     "zh": "[名詞] 邊緣;優勢",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "education",
     "zh": "[名詞] 教育",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "effect",
@@ -3615,7 +3615,7 @@
     "en": "egg",
     "zh": "[名詞] 蛋",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "eight",
@@ -3669,13 +3669,13 @@
     "en": "element",
     "zh": "[名詞] 要素,成分",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "elephant",
     "zh": "[名詞] 大象",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "eleven",
@@ -3687,19 +3687,19 @@
     "en": "else",
     "zh": "[形容詞] 其他的; [副詞] 其他,另外;否則,要不然",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "email",
     "zh": "[名詞] 電子郵件",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "e-mail",
     "zh": "[動詞] 傳送電子郵件; [名詞] 電子郵件",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "embarrass",
@@ -3723,13 +3723,13 @@
     "en": "employ",
     "zh": "[動詞] 僱用",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "empty",
     "zh": "[形容詞] 空的; [動詞] 倒空;流空",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "encourage",
@@ -3741,7 +3741,7 @@
     "en": "end",
     "zh": "[動詞] 結束; [名詞] 盡頭;結局",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "enemy",
@@ -3759,37 +3759,37 @@
     "en": "engine",
     "zh": "[名詞] 引擎",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "engineer",
     "zh": "[名詞] 工程師",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "England",
     "zh": "[名詞] 英格蘭",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "English",
     "zh": "[形容詞] 英格蘭的;英國的;英國人的;英語的; [名詞] 英語",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Englishman",
     "zh": "[名詞] 英國人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "enjoy",
     "zh": "[動詞] 喜歡;享受",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "enough",
@@ -3801,7 +3801,7 @@
     "en": "enter",
     "zh": "[動詞] 輸入;進入",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "entire",
@@ -3825,7 +3825,7 @@
     "en": "environment",
     "zh": "[名詞] 環境",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "envy",
@@ -3837,7 +3837,7 @@
     "en": "equal",
     "zh": "[形容詞] 相等的; 平等的; [動詞] 等於; [名詞] 相等的事物;相等的數量",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "eraser",
@@ -3849,7 +3849,7 @@
     "en": "error",
     "zh": "[名詞] 錯誤",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "especially",
@@ -3861,7 +3861,7 @@
     "en": "Europe",
     "zh": "[名詞] 歐洲",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "European",
@@ -3885,7 +3885,7 @@
     "en": "event",
     "zh": "[名詞] 事件",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ever",
@@ -3897,31 +3897,31 @@
     "en": "every",
     "zh": "[形容詞] 每一個的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "everybody",
     "zh": "[代名詞] 每個人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "everyone",
     "zh": "[代名詞] 每個人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "everything",
     "zh": "[代名詞] 每樣事物;重於一切",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "everywhere",
     "zh": "[副詞] 處處",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "evil",
@@ -3951,7 +3951,7 @@
     "en": "example",
     "zh": "[名詞] 例子",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "excellent",
@@ -4005,7 +4005,7 @@
     "en": "exit",
     "zh": "[動詞] 出去,離去;退去; [名詞] 出口",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "expect",
@@ -4059,7 +4059,7 @@
     "en": "eye",
     "zh": "[名詞] 眼睛",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "face",
@@ -4077,7 +4077,7 @@
     "en": "factory",
     "zh": "[名詞] 工廠",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "fail",
@@ -4107,13 +4107,13 @@
     "en": "false",
     "zh": "[形容詞] 假的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "family",
     "zh": "[名詞] 家庭",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "famous",
@@ -4239,7 +4239,7 @@
     "en": "feeling",
     "zh": "[名詞] 感覺",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "fellow",
@@ -4311,7 +4311,7 @@
     "en": "fill",
     "zh": "[動詞] 充滿;填充",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "film",
@@ -4323,7 +4323,7 @@
     "en": "final",
     "zh": "[形容詞] 最終的; [名詞] 決賽;期末考;(當日報紙的)末版",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "finally",
@@ -4335,31 +4335,31 @@
     "en": "find",
     "zh": "[動詞] 找到",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "fine",
     "zh": "[形容詞] 好的; [動詞] 使純;澄清;使精細; [名詞] 好天氣; 罰金,罰款",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "finger",
     "zh": "[名詞] 手指",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "finish",
     "zh": "[動詞] 完成; [名詞] 結束;(傢具等)末道漆",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "fire",
     "zh": "[動詞] 解雇,開除;點燃; 開火;射擊; [名詞] 火",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "firm",
@@ -4371,13 +4371,13 @@
     "en": "first",
     "zh": "[形容詞] 第一的; [副詞] 先,首先;第一;首次; [名詞] 第一;第一個;第一名;優等;開始;開始時間",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "fish",
     "zh": "[動詞] 釣魚; [名詞] 魚",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "fisherman",
@@ -4389,19 +4389,19 @@
     "en": "fit",
     "zh": "[動詞] 合身;適合; [名詞] 適合;合身",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "five",
     "zh": "[形容詞] 五的; [名詞] 五",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "fix",
     "zh": "[動詞] 修理",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "flag",
@@ -4431,7 +4431,7 @@
     "en": "floor",
     "zh": "[名詞] 地板;樓;室內地上",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "flour",
@@ -4449,7 +4449,7 @@
     "en": "flower",
     "zh": "[名詞] 花",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "flu",
@@ -4467,13 +4467,13 @@
     "en": "fly",
     "zh": "[動詞] 飛; [名詞] 蒼蠅",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "focus",
     "zh": "[動詞] 集中; [名詞] 焦點",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "fog",
@@ -4485,19 +4485,19 @@
     "en": "follow",
     "zh": "[動詞] 遵循;跟隨",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "following",
     "zh": "[形容詞] 接著的,其次的;下面的; [介系詞] 在...以後; [名詞] 一批追隨者;下列事物(或人員)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "food",
     "zh": "[名詞] 食物",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "fool",
@@ -4527,7 +4527,7 @@
     "en": "for",
     "zh": "[介系詞] 為…做的;給;計;關於; [連接詞] 因為,由於",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "force",
@@ -4557,7 +4557,7 @@
     "en": "forget",
     "zh": "[動詞] 忘記",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "forgive",
@@ -4641,7 +4641,7 @@
     "en": "free",
     "zh": "[形容詞] 空閒的;自由的;免費的; [動詞] 使自由;解放;使解脫",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "freedom",
@@ -4677,7 +4677,7 @@
     "en": "friend",
     "zh": "[名詞] 朋友",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "friendly",
@@ -4713,7 +4713,7 @@
     "en": "from",
     "zh": "[介系詞] 從",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "front",
@@ -4743,19 +4743,19 @@
     "en": "fun",
     "zh": "[形容詞] 有趣的,愉快的; [名詞] 樂趣",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "function",
     "zh": "[動詞] 起作用; [名詞] 功能,作用;函數",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "funny",
     "zh": "[形容詞] 可笑的;滑稽的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "furniture",
@@ -4773,7 +4773,7 @@
     "en": "future",
     "zh": "[形容詞] 未來的,將來的;將來(時)的; [名詞] 未來",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "gain",
@@ -4785,7 +4785,7 @@
     "en": "game",
     "zh": "[名詞] 比賽;遊戲",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "garage",
@@ -4809,7 +4809,7 @@
     "en": "gas",
     "zh": "[名詞] 瓦斯;汽油",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "gasoline",
@@ -4875,13 +4875,13 @@
     "en": "German",
     "zh": "[形容詞] 德國的;德國人的; [名詞] 德國人;德語",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Germany",
     "zh": "[名詞] 德國",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "gesture",
@@ -4893,13 +4893,13 @@
     "en": "get",
     "zh": "[動詞] 得到;拿到",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ghost",
     "zh": "[名詞] 鬼",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "giant",
@@ -4917,7 +4917,7 @@
     "en": "girl",
     "zh": "[名詞] 女孩",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "give",
@@ -4953,7 +4953,7 @@
     "en": "go",
     "zh": "[動詞] 去;走; [名詞] 輪到的機會;嘗試",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "goal",
@@ -4983,7 +4983,7 @@
     "en": "golden",
     "zh": "[形容詞] 金色的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "golf",
@@ -4995,13 +4995,13 @@
     "en": "good",
     "zh": "[形容詞] 好的; [名詞] 利益;好處;優點",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "good-bye",
     "zh": "[名詞] 告別",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "goose",
@@ -5079,7 +5079,7 @@
     "en": "great",
     "zh": "[形容詞] 很棒;大的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "greedy",
@@ -5091,7 +5091,7 @@
     "en": "green",
     "zh": "[形容詞] 綠色的; [名詞] 綠色",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "greet",
@@ -5103,7 +5103,7 @@
     "en": "ground",
     "zh": "[名詞] 地面",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "group",
@@ -5115,7 +5115,7 @@
     "en": "grow",
     "zh": "[動詞] 種植;成長",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "growth",
@@ -5175,7 +5175,7 @@
     "en": "gym",
     "zh": "[名詞] 體育館;體育;體操",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "habit",
@@ -5187,13 +5187,13 @@
     "en": "hadn't",
     "zh": "[縮短形] had not",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hair",
     "zh": "[名詞] 頭髮",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "haircut",
@@ -5229,7 +5229,7 @@
     "en": "hamburger",
     "zh": "[名詞] 漢堡",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hammer",
@@ -5253,7 +5253,7 @@
     "en": "handle",
     "zh": "[動詞] 處理;搬弄; [名詞] 把手",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "handsome",
@@ -5277,13 +5277,13 @@
     "en": "happen",
     "zh": "[動詞] 發生",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "happy",
     "zh": "[形容詞] 快樂的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hard",
@@ -5319,19 +5319,19 @@
     "en": "have",
     "zh": "[動詞] 有; [助動詞] 已經",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "haven't",
     "zh": "[縮短形] have not",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "he",
     "zh": "[代名詞] 他",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "head",
@@ -5349,7 +5349,7 @@
     "en": "health",
     "zh": "[名詞] 健康",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "healthy",
@@ -5391,13 +5391,13 @@
     "en": "he'd",
     "zh": "[縮短形] he had; he would",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "height",
     "zh": "[名詞] 高度",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "helicopter",
@@ -5409,25 +5409,25 @@
     "en": "he'll",
     "zh": "[縮短形] he will",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hello",
     "zh": "[感歎詞] 哈囉; [名詞] 表示問候的叫聲",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "help",
     "zh": "[動詞] 幫忙; [名詞] 幫助;幫手,助手",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "helpful",
     "zh": "[形容詞] 有益的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hen",
@@ -5439,55 +5439,55 @@
     "en": "her",
     "zh": "[代名詞] (受格) 她; (所有格) 她的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "here",
     "zh": "[副詞] 在這裡",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hero",
     "zh": "[名詞] 英雄",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hers",
     "zh": "[代名詞] (所有格) 她的(東西)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "herself",
     "zh": "[代名詞] (反身代名詞)   她自己",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "he's",
     "zh": "[縮短形] he is; he has",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hey",
     "zh": "[感歎詞] 嗨;喂",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hi",
     "zh": "[感歎詞] 嗨",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hide",
     "zh": "[動詞] 躲;隱藏",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "high",
@@ -5517,13 +5517,13 @@
     "en": "him",
     "zh": "[代名詞] (受格) 他",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "himself",
     "zh": "[代名詞] (反身代名詞)   他自己",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hip",
@@ -5547,19 +5547,19 @@
     "en": "his",
     "zh": "[代名詞] (所有格) 他的;  他的(東西)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "history",
     "zh": "[名詞] 歷史",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hit",
     "zh": "[動詞] 打;擊; [名詞] 打擊;安打;一炮打響",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hobby",
@@ -5571,7 +5571,7 @@
     "en": "hold",
     "zh": "[動詞] 拿著; [名詞] 抓住,握住;延遲;延期;耽擱",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hole",
@@ -5589,7 +5589,7 @@
     "en": "home",
     "zh": "[形容詞] 家庭的;國內的; [副詞] 在家;回家;到家; [名詞] 家",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "homesick",
@@ -5601,7 +5601,7 @@
     "en": "homework",
     "zh": "[名詞] 家庭作業",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "honest",
@@ -5625,7 +5625,7 @@
     "en": "Hong Kong",
     "zh": "[名詞] 香港",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hop",
@@ -5637,7 +5637,7 @@
     "en": "hope",
     "zh": "[動詞] 希望; [名詞] 希望,期望",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "horrible",
@@ -5655,61 +5655,61 @@
     "en": "hospital",
     "zh": "[名詞] 醫院",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "host",
     "zh": "[動詞] 主辦,主持;以主人身分招待; [名詞] 主人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hot",
     "zh": "[形容詞] 熱的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hotel",
     "zh": "[名詞] 旅館",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "hour",
     "zh": "[名詞] 小時",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "house",
     "zh": "[動詞] 給...房子住; [名詞] 房子",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "how",
     "zh": "[副詞] 如何; [連接詞] (用於間接陳述中,意義和作用與that相仿)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "however",
     "zh": "[副詞] 無論如何,不管怎樣; [連接詞] 然而;不過",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "how's",
     "zh": "[縮短形] how is",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Hualian",
     "zh": "[名詞] 花蓮",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "huge",
@@ -5799,61 +5799,61 @@
     "en": "I",
     "zh": "[代名詞] 我",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ice",
     "zh": "[名詞] 冰",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "I'd",
     "zh": "[縮短形] I had; I would",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "idea",
     "zh": "[名詞] 主意",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "if",
     "zh": "[連接詞] 如果",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ignore",
     "zh": "[動詞] 不理睬",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ill",
     "zh": "[形容詞] 生病的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "I'll",
     "zh": "[縮短形] I shall, I will",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "I'm",
     "zh": "[縮短形] I am",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "image",
     "zh": "[名詞] 肖像影像",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "imagine",
@@ -5901,7 +5901,7 @@
     "en": "in",
     "zh": "[形容詞] 在裡面的; [副詞] 進;在裡頭;在家; [介系詞] 在…之內",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "inch",
@@ -5913,7 +5913,7 @@
     "en": "include",
     "zh": "[動詞] 包含",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "including",
@@ -5925,19 +5925,19 @@
     "en": "income",
     "zh": "[名詞] 收入",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "increase",
     "zh": "[動詞] 增加; [名詞] 增加;增強",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "independent",
     "zh": "[形容詞] 獨立的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "indicate",
@@ -5967,7 +5967,7 @@
     "en": "information",
     "zh": "[名詞] 資訊",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "injury",
@@ -5991,7 +5991,7 @@
     "en": "inside",
     "zh": "[副詞] 在裡面;往裡面; [介系詞] 在…裡面; [名詞] 內部,裡面;內幕",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "insist",
@@ -6045,13 +6045,13 @@
     "en": "international",
     "zh": "[形容詞] 國際的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Internet",
     "zh": "[名詞] 網際網路",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "interrupt",
@@ -6069,7 +6069,7 @@
     "en": "into",
     "zh": "[介系詞] 進入",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "introduce",
@@ -6123,49 +6123,49 @@
     "en": "isn't",
     "zh": "[縮短形] is not",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "it",
     "zh": "[代名詞] 它",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "item",
     "zh": "[名詞] 項目;品目",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "it'll",
     "zh": "[縮短形] it will",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "its",
     "zh": "[代名詞] (所有格) 它的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "it's",
     "zh": "[縮短形] it is; it has",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "itself",
     "zh": "[代名詞] (反身代名詞)   它自己",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "I've",
     "zh": "[縮短形] I have",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "jacket",
@@ -6189,7 +6189,7 @@
     "en": "Japanese",
     "zh": "[形容詞] 日本(人)的; [名詞] 日本人;日語",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "jazz",
@@ -6219,7 +6219,7 @@
     "en": "job",
     "zh": "[名詞] 職業;工作",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "jog",
@@ -6231,7 +6231,7 @@
     "en": "join",
     "zh": "[動詞] 加入",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "joint",
@@ -6243,7 +6243,7 @@
     "en": "joke",
     "zh": "[動詞] 開玩笑; [名詞] 笑話",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "journalist",
@@ -6309,7 +6309,7 @@
     "en": "keep",
     "zh": "[動詞] 保留;保持",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ketchup",
@@ -6321,7 +6321,7 @@
     "en": "key",
     "zh": "[形容詞] 重要的,基本的,關鍵的; [名詞] 鑰匙",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "kick",
@@ -6333,13 +6333,13 @@
     "en": "kid",
     "zh": "[名詞] 小孩",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "kill",
     "zh": "[動詞] 殺",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "kilogram",
@@ -6387,7 +6387,7 @@
     "en": "kitchen",
     "zh": "[名詞] 廚房",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "kite",
@@ -6423,7 +6423,7 @@
     "en": "know",
     "zh": "[動詞] 知道",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "knowledge",
@@ -6435,13 +6435,13 @@
     "en": "koala",
     "zh": "[名詞] 澳洲產無尾熊",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Korea",
     "zh": "[名詞] 韓國",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Korean",
@@ -6453,7 +6453,7 @@
     "en": "KTV",
     "zh": "[縮寫] 卡拉OK 電視 (Kara-OK Television)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "lack",
@@ -6465,7 +6465,7 @@
     "en": "lady",
     "zh": "[名詞] 淑女",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "lake",
@@ -6483,7 +6483,7 @@
     "en": "lamp",
     "zh": "[名詞] 燈",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "land",
@@ -6495,31 +6495,31 @@
     "en": "language",
     "zh": "[名詞] 語言",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Lantern Festival",
     "zh": "[片語] 元宵節;燈節",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "large",
     "zh": "[形容詞] 大的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "last",
     "zh": "[形容詞] 最後的; [動詞] 持續; [名詞] 最後的人(或事物);最後;上回",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "late",
     "zh": "[形容詞] 晚的;遲的; [副詞] 遲到,來不及;晚",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "later",
@@ -6543,7 +6543,7 @@
     "en": "law",
     "zh": "[名詞] 法律",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "lawyer",
@@ -6573,7 +6573,7 @@
     "en": "leader",
     "zh": "[名詞] 領袖",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "leadership",
@@ -6591,7 +6591,7 @@
     "en": "learn",
     "zh": "[動詞] 學習",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "least",
@@ -6603,13 +6603,13 @@
     "en": "leave",
     "zh": "[動詞] 離開;丟下; [名詞] 准假;休假",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "left",
     "zh": "[形容詞] 左邊的; [副詞] 在左邊;向左; [名詞] 左,左邊;激進分子們",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "leg",
@@ -6639,7 +6639,7 @@
     "en": "length",
     "zh": "[名詞] (距離,尺寸的)長度",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "less",
@@ -6681,7 +6681,7 @@
     "en": "level",
     "zh": "[形容詞] 水平的,平的;筆直的; [名詞] 水平線",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "library",
@@ -6717,7 +6717,7 @@
     "en": "lift",
     "zh": "[動詞] 舉起; [名詞] 提,吊,升;鼓舞",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "light",
@@ -6735,7 +6735,7 @@
     "en": "like",
     "zh": "[動詞] 喜歡; [介系詞] 像;如",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "likely",
@@ -6747,7 +6747,7 @@
     "en": "limit",
     "zh": "[動詞] 限定; [名詞] 限度",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "line",
@@ -6759,7 +6759,7 @@
     "en": "link",
     "zh": "[動詞] 聯繫; [名詞] 環節",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "lion",
@@ -6777,13 +6777,13 @@
     "en": "liquid",
     "zh": "[名詞] 液體",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "list",
     "zh": "[動詞] 列成表; [名詞] 單子",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "listen",
@@ -6801,7 +6801,7 @@
     "en": "little",
     "zh": "[形容詞] 很少的; [副詞] 一點點; [名詞] 沒有多少;短時間;短距離",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "loaf",
@@ -6813,37 +6813,37 @@
     "en": "local",
     "zh": "[形容詞] 本地的; [名詞] 當地居民",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "lock",
     "zh": "[動詞] 鎖住; [名詞] 鎖",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "London",
     "zh": "[名詞] 倫敦(英國首都)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "lonely",
     "zh": "[形容詞] 寂寞的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "long",
     "zh": "[形容詞] 長的; [動詞] 長久地;始終; 渴望; [副詞] 長久地;始終",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "look",
     "zh": "[動詞] 看; [名詞] 看;瞥;臉色;眼神;表情",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "lose",
@@ -6855,13 +6855,13 @@
     "en": "loser",
     "zh": "[名詞] 輸家",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "loss",
     "zh": "[名詞] 損失",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "lot",
@@ -6879,7 +6879,7 @@
     "en": "love",
     "zh": "[動詞] 愛，愛好；喜歡; [名詞] 愛",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "lovely",
@@ -6891,7 +6891,7 @@
     "en": "lover",
     "zh": "[名詞] 情人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "low",
@@ -6921,7 +6921,7 @@
     "en": "machine",
     "zh": "[名詞] 機器",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "mad",
@@ -6939,7 +6939,7 @@
     "en": "magic",
     "zh": "[形容詞] 不可思議的;有魔力的; [名詞] 魔術",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "magician",
@@ -6951,7 +6951,7 @@
     "en": "mail",
     "zh": "[動詞] 寄信; [名詞] 信件",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "mailman",
@@ -6963,13 +6963,13 @@
     "en": "main",
     "zh": "[形容詞] 最主要的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "maintain",
     "zh": "[動詞] 維持;保養",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "major",
@@ -6981,7 +6981,7 @@
     "en": "make",
     "zh": "[動詞] 製造; 使得",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "male",
@@ -6993,25 +6993,25 @@
     "en": "mall",
     "zh": "[名詞] 大規模購物中心",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "man",
     "zh": "[名詞] 男人; 人類",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "manager",
     "zh": "[名詞] 經理",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Mandarin",
     "zh": "[名詞] 中國的官話(北京話)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "mango",
@@ -7035,13 +7035,13 @@
     "en": "map",
     "zh": "[名詞] 地圖",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "mark",
     "zh": "[動詞] 做記號; [名詞] 記號",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "marker",
@@ -7053,7 +7053,7 @@
     "en": "market",
     "zh": "[動詞] (在市場上)銷售; [名詞] 市場",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "marriage",
@@ -7071,7 +7071,7 @@
     "en": "marry",
     "zh": "[動詞] 結婚",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "marvelous",
@@ -7095,7 +7095,7 @@
     "en": "master",
     "zh": "[名詞] 主人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "mat",
@@ -7107,7 +7107,7 @@
     "en": "match",
     "zh": "[動詞] 相配; [名詞] 比賽,競賽;對手;相配者;火柴",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "material",
@@ -7119,7 +7119,7 @@
     "en": "math",
     "zh": "[名詞] 數學",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "matter",
@@ -7143,13 +7143,13 @@
     "en": "maybe",
     "zh": "[副詞] 可能;也許",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "me",
     "zh": "[代名詞] (受格) 我",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "meal",
@@ -7209,7 +7209,7 @@
     "en": "meeting",
     "zh": "[名詞] 集會",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "melon",
@@ -7221,25 +7221,25 @@
     "en": "member",
     "zh": "[名詞] 會員",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "memory",
     "zh": "[名詞] 記憶",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "menu",
     "zh": "[名詞] 菜單",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "message",
     "zh": "[名詞] 消息;音信",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "metal",
@@ -7251,7 +7251,7 @@
     "en": "method",
     "zh": "[名詞] 方法",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "microwave",
@@ -7299,7 +7299,7 @@
     "en": "milk",
     "zh": "[名詞] 牛奶",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "million",
@@ -7335,7 +7335,7 @@
     "en": "miss",
     "zh": "[動詞] 想念;惦記;未達到; [名詞] 少女",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "missing",
@@ -7383,13 +7383,13 @@
     "en": "money",
     "zh": "[名詞] 錢",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "monkey",
     "zh": "[名詞] 猴子",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "monster",
@@ -7401,7 +7401,7 @@
     "en": "month",
     "zh": "[名詞] 月份",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "monthly",
@@ -7425,7 +7425,7 @@
     "en": "more",
     "zh": "[形容詞] 更多的; [副詞] 更多;另外;再; [代名詞] 更多的數量",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "morning",
@@ -7443,7 +7443,7 @@
     "en": "most",
     "zh": "[形容詞] 最多的;大部分的; [副詞] 最;最多;非常,很; [代名詞] 大部分",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "mother",
@@ -7491,7 +7491,7 @@
     "en": "move",
     "zh": "[動詞] 移動; [名詞] 動,移動;移居",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "movement",
@@ -7503,7 +7503,7 @@
     "en": "movie",
     "zh": "[名詞] 電影",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Mr.",
@@ -7521,7 +7521,7 @@
     "en": "MRT",
     "zh": "[縮寫] 大眾捷運系統",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Ms.",
@@ -7533,7 +7533,7 @@
     "en": "MTV",
     "zh": "[縮寫] 音樂電視",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "much",
@@ -7569,25 +7569,25 @@
     "en": "must",
     "zh": "[助動詞] 必須",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "mustn't",
     "zh": "[縮短形] must not",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "my",
     "zh": "[代名詞] (所有格) 我的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "myself",
     "zh": "[代名詞] (反身代名詞)    我自己",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "nail",
@@ -7677,7 +7677,7 @@
     "en": "need",
     "zh": "[動詞] 需要; [助動詞] (用於疑問句和否定句)需要,必須; [名詞] 需要;需求;貧窮",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "needle",
@@ -7725,13 +7725,13 @@
     "en": "never",
     "zh": "[副詞] 永不",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "new",
     "zh": "[形容詞] 新的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "New Year's Day",
@@ -7749,25 +7749,25 @@
     "en": "New York",
     "zh": "[名詞] 紐約",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "news",
     "zh": "[名詞] 新聞",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "newspaper",
     "zh": "[名詞] 報紙",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "next",
     "zh": "[形容詞] 下一個; [副詞] 接下去,然後;下次;第二",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "nice",
@@ -7785,7 +7785,7 @@
     "en": "night",
     "zh": "[名詞] 夜晚",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "nine",
@@ -7809,7 +7809,7 @@
     "en": "no",
     "zh": "[形容詞] 沒有;不; [副詞] 不; [名詞] 不;沒有;拒絕;反對票",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "nobody",
@@ -7881,25 +7881,25 @@
     "en": "not",
     "zh": "[副詞] 不",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "note",
     "zh": "[動詞] 注意;記下; [名詞] 筆記;音符;記錄;便條",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "notebook",
     "zh": "[名詞] 筆記本",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "nothing",
     "zh": "[名詞] 無事;無物;沒什麼; [代名詞] 無事;無物",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "notice",
@@ -7923,13 +7923,13 @@
     "en": "now",
     "zh": "[副詞] 現在; [名詞] 現在,目前,此刻",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "number",
     "zh": "[動詞] 編號,總數達到,共計; [名詞] 號碼;數字",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "nurse",
@@ -7962,7 +7962,7 @@
     "use": true
   },
   {
-    "en": "o'clock",
+    "en": "Oclock",
     "zh": "[副詞] ...點鐘",
     "level": "初級",
     "use": true
@@ -7977,13 +7977,13 @@
     "en": "of",
     "zh": "[介系詞] …的，屬於",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "off",
     "zh": "[形容詞] 離去的;偏離的;休假的;關著的; [副詞] 脫下; [介系詞] 離去",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "offer",
@@ -7995,7 +7995,7 @@
     "en": "office",
     "zh": "[名詞] 辦公室",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "officer",
@@ -8013,7 +8013,7 @@
     "en": "often",
     "zh": "[副詞] 常常",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "oil",
@@ -8025,13 +8025,13 @@
     "en": "OK",
     "zh": "[形容詞] 好吧; [動詞] 尚可;挺好;批准; [副詞] 尚可;挺好;對吧; [名詞] 認可,批准",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "old",
     "zh": "[形容詞] 年老的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "omit",
@@ -8043,19 +8043,19 @@
     "en": "on",
     "zh": "[副詞] 繼續;向前;開著;;在進行中; [介系詞] 在…上面",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "once",
     "zh": "[副詞] 一次; [連接詞] 一旦,一經...便; [名詞] 一次,一回",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "one",
     "zh": "[形容詞] 一個的; [名詞] 一;一個人;一件事物; [代名詞] 任何人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "onion",
@@ -8067,13 +8067,13 @@
     "en": "only",
     "zh": "[副詞] 只,僅僅,才;不料;反而; [連接詞] 可是,不過;要不是,若非",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "open",
     "zh": "[形容詞] 打開的;空曠的;未定的;營業的;公開的; [動詞] 打開",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "operate",
@@ -8103,19 +8103,19 @@
     "en": "or",
     "zh": "[連接詞] 或",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "orange",
     "zh": "[形容詞] 橙色的; [名詞] 柳橙;橙色",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "order",
     "zh": "[動詞] 點菜;訂購; [名詞] 定單",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ordinary",
@@ -8139,31 +8139,31 @@
     "en": "other",
     "zh": "[形容詞] 其他的; [代名詞] 其他的人或物",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "our",
     "zh": "[代名詞] 我們的 (所有格)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ours",
     "zh": "[代名詞] (所有格) 我們的(東西)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "out",
     "zh": "[形容詞] 在外的; [副詞] 在外地; [介系詞] 通過...而出",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "outside",
     "zh": "[形容詞] 外邊的,外部的; [副詞] 外面地; [介系詞] 在外; [名詞] 外面,外部;外側;外表",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "oven",
@@ -8193,7 +8193,7 @@
     "en": "own",
     "zh": "[形容詞] 自己的; [動詞] 擁有",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "owner",
@@ -8211,7 +8211,7 @@
     "en": "p.m.",
     "zh": "[副詞] 下午; [副詞] 下午",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "pack",
@@ -8223,13 +8223,13 @@
     "en": "package",
     "zh": "[名詞] 包裹",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "page",
     "zh": "[名詞] 頁",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "pain",
@@ -8289,7 +8289,7 @@
     "en": "panda",
     "zh": "[名詞] 貓熊",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "pants",
@@ -8307,7 +8307,7 @@
     "en": "paper",
     "zh": "[名詞] 紙張",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "pardon",
@@ -8319,7 +8319,7 @@
     "en": "parent",
     "zh": "[名詞] (父親；母親) 雙親之一",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Paris",
@@ -8331,7 +8331,7 @@
     "en": "park",
     "zh": "[動詞] 停放車輛; 放置; [名詞] 公園",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "parrot",
@@ -8355,7 +8355,7 @@
     "en": "party",
     "zh": "[名詞] 派對",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "pass",
@@ -8385,7 +8385,7 @@
     "en": "path",
     "zh": "[名詞] 小徑;路線",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "patient",
@@ -8409,13 +8409,13 @@
     "en": "pay",
     "zh": "[動詞] 付錢; [名詞] 薪俸;報酬;報償;懲罰",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "PE",
     "zh": "[縮寫] 體育課 (physical education)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "peace",
@@ -8445,7 +8445,7 @@
     "en": "pen",
     "zh": "[名詞] 原子筆;墨水筆",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "pencil",
@@ -8457,7 +8457,7 @@
     "en": "people",
     "zh": "[名詞] 人們",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "pepper",
@@ -8505,19 +8505,19 @@
     "en": "Philippines",
     "zh": "[名詞] 菲律賓",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "phone",
     "zh": "[動詞] 打電話; [名詞] 電話",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "photo",
     "zh": "[名詞] 相片",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "photograph",
@@ -8541,7 +8541,7 @@
     "en": "piano",
     "zh": "[名詞] 鋼琴",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "pick",
@@ -8565,7 +8565,7 @@
     "en": "pie",
     "zh": "[名詞] 派(食品)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "piece",
@@ -8577,7 +8577,7 @@
     "en": "pig",
     "zh": "[名詞] 豬",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "pigeon",
@@ -8613,7 +8613,7 @@
     "en": "pink",
     "zh": "[形容詞] 粉紅色的; [名詞] 粉紅色",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "pipe",
@@ -8643,7 +8643,7 @@
     "en": "plan",
     "zh": "[動詞] 計劃; [名詞] 計畫",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "plane",
@@ -8679,13 +8679,13 @@
     "en": "play",
     "zh": "[動詞] 玩; [名詞] 遊戲;戲劇",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "player",
     "zh": "[名詞] 遊戲者;運動者;表演者",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "playground",
@@ -8799,7 +8799,7 @@
     "en": "poor",
     "zh": "[形容詞] 貧窮的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "popcorn",
@@ -8877,13 +8877,13 @@
     "en": "power",
     "zh": "[名詞] 權力;動力",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "powerful",
     "zh": "[形容詞] 強有力的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "practice",
@@ -8949,7 +8949,7 @@
     "en": "price",
     "zh": "[動詞] 給...定價; [名詞] 價錢",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "priest",
@@ -8979,7 +8979,7 @@
     "en": "print",
     "zh": "[動詞] 印刷;用印刷體寫; [名詞] 圖片印刷品;出版物",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "printer",
@@ -9003,7 +9003,7 @@
     "en": "private",
     "zh": "[形容詞] 私人的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "prize",
@@ -9225,7 +9225,7 @@
     "en": "quit",
     "zh": "[動詞] 放棄;離職",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "quite",
@@ -9243,7 +9243,7 @@
     "en": "rabbit",
     "zh": "[名詞] 兔子",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "race",
@@ -9267,7 +9267,7 @@
     "en": "rain",
     "zh": "[動詞] 下雨; [名詞] 雨",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "rainbow",
@@ -9327,19 +9327,19 @@
     "en": "read",
     "zh": "[動詞] 閱讀",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ready",
     "zh": "[形容詞] 準備好的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "real",
     "zh": "[形容詞] 真實的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "realize",
@@ -9363,7 +9363,7 @@
     "en": "receive",
     "zh": "[動詞] 收到",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "recent",
@@ -9405,7 +9405,7 @@
     "en": "red",
     "zh": "[形容詞] 紅色的; [名詞] 紅色",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "refrigerator",
@@ -9447,7 +9447,7 @@
     "en": "reject",
     "zh": "[動詞] 拒絕",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "relative",
@@ -9459,7 +9459,7 @@
     "en": "remember",
     "zh": "[動詞] 記得",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "remind",
@@ -9483,7 +9483,7 @@
     "en": "repeat",
     "zh": "[動詞] 重複",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "reply",
@@ -9567,7 +9567,7 @@
     "en": "rice",
     "zh": "[名詞] 稻米;飯",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "rich",
@@ -9579,7 +9579,7 @@
     "en": "ride",
     "zh": "[動詞] 騎;乘; [名詞] 搭乘;兜風",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "right",
@@ -9621,7 +9621,7 @@
     "en": "robot",
     "zh": "[名詞] 機器人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "rock",
@@ -9651,13 +9651,13 @@
     "en": "room",
     "zh": "[名詞] 房間",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "root",
     "zh": "[動詞] 使生根;使紮根; [名詞] 根",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "rope",
@@ -9711,7 +9711,7 @@
     "en": "rule",
     "zh": "[動詞] 統治;裁決; [名詞] 規則",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ruler",
@@ -9723,7 +9723,7 @@
     "en": "run",
     "zh": "[動詞] 跑; [名詞] 跑;連續的演出;趨勢,動向;擠兌",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "rush",
@@ -9849,7 +9849,7 @@
     "en": "say",
     "zh": "[動詞] 說",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "scale",
@@ -9915,7 +9915,7 @@
     "en": "sea",
     "zh": "[名詞] 海",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "search",
@@ -9957,7 +9957,7 @@
     "en": "see",
     "zh": "[動詞] 看見",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "seed",
@@ -10017,7 +10017,7 @@
     "en": "send",
     "zh": "[動詞] 寄發;送",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "sense",
@@ -10059,7 +10059,7 @@
     "en": "service",
     "zh": "[名詞] 服務",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "set",
@@ -10071,7 +10071,7 @@
     "en": "seven",
     "zh": "[形容詞] 七的; [名詞] 七",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "seventeen",
@@ -10131,7 +10131,7 @@
     "en": "she",
     "zh": "[代名詞] 她",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "she'd",
@@ -10215,7 +10215,7 @@
     "en": "shop",
     "zh": "[動詞] 購物; [名詞] 商店",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "shore",
@@ -10263,7 +10263,7 @@
     "en": "show",
     "zh": "[動詞] 表演;顯示; [名詞] 展覽;電影",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "shower",
@@ -10353,7 +10353,7 @@
     "en": "simple",
     "zh": "[形容詞] 簡單的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "simply",
@@ -10407,7 +10407,7 @@
     "en": "sir",
     "zh": "[名詞] 先生",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "sister",
@@ -10419,13 +10419,13 @@
     "en": "sit",
     "zh": "[動詞] 坐",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "six",
     "zh": "[形容詞] 六的; [名詞] 六",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "sixteen",
@@ -10461,7 +10461,7 @@
     "en": "skill",
     "zh": "[名詞] 技能",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "skillful",
@@ -10485,13 +10485,13 @@
     "en": "sky",
     "zh": "[名詞] 天空",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "sleep",
     "zh": "[動詞] 睡覺; [名詞] 睡眠;死亡;冬眠",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "sleepy",
@@ -10545,7 +10545,7 @@
     "en": "smart",
     "zh": "[形容詞] 聰明的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "smell",
@@ -10581,7 +10581,7 @@
     "en": "snake",
     "zh": "[名詞] 蛇",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "sneakers",
@@ -10611,7 +10611,7 @@
     "en": "so",
     "zh": "[副詞] 這麼;也如此; [連接詞] 因此",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "soap",
@@ -10653,7 +10653,7 @@
     "en": "sofa",
     "zh": "[名詞] 沙發",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "soft",
@@ -10683,43 +10683,43 @@
     "en": "some",
     "zh": "[代名詞] 一些",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "somebody",
     "zh": "[代名詞] 某人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "somebody's",
     "zh": "[縮短形] somebody is; somebody has",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "someone",
     "zh": "[代名詞] 某人",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "something",
     "zh": "[代名詞] 某事",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "sometimes",
     "zh": "[副詞] 有時候",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "somewhere",
     "zh": "[副詞] 在某處",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "son",
@@ -10731,13 +10731,13 @@
     "en": "song",
     "zh": "[名詞] 歌曲",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "soon",
     "zh": "[副詞] 即刻;不久",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "sore",
@@ -10797,7 +10797,7 @@
     "en": "soy sauce",
     "zh": "[名詞] 醬油",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "space",
@@ -10935,13 +10935,13 @@
     "en": "star",
     "zh": "[動詞] 主演;表現出色; [名詞] 星星;明星",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "start",
     "zh": "[動詞] 開始; [名詞] 出發;開端;啟動",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "station",
@@ -11013,7 +11013,7 @@
     "en": "stop",
     "zh": "[動詞] 停止; [名詞] 車站",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "store",
@@ -11037,7 +11037,7 @@
     "en": "story",
     "zh": "[名詞] 故事;樓層",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "stove",
@@ -11133,7 +11133,7 @@
     "en": "style",
     "zh": "[名詞] 時尚;風格;文體",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "subway",
@@ -11205,7 +11205,7 @@
     "en": "sun",
     "zh": "[名詞] 太陽",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Sunday",
@@ -11247,7 +11247,7 @@
     "en": "support",
     "zh": "[動詞] 支持; [名詞] 支持",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "sure",
@@ -11349,7 +11349,7 @@
     "en": "Taichung",
     "zh": "[名詞] 台中",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "tail",
@@ -11361,13 +11361,13 @@
     "en": "Tainan",
     "zh": "[名詞] 台南",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Taiwan",
     "zh": "[名詞] 台灣",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Taiwanese",
@@ -11379,7 +11379,7 @@
     "en": "take",
     "zh": "[動詞] 拿;帶;採用",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "talent",
@@ -11391,7 +11391,7 @@
     "en": "talk",
     "zh": "[動詞] 講話; [名詞] 談話;交談;空話;話題;談判",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "talkative",
@@ -11451,7 +11451,7 @@
     "en": "tea",
     "zh": "[名詞] 茶",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "teach",
@@ -11475,7 +11475,7 @@
     "en": "team",
     "zh": "[名詞] 隊",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "teapot",
@@ -11529,7 +11529,7 @@
     "en": "ten",
     "zh": "[形容詞] 十的; [名詞] 十",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "tennis",
@@ -11565,7 +11565,7 @@
     "en": "test",
     "zh": "[動詞] 試驗;測驗; [名詞] 測驗;考試",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "textbook",
@@ -11583,7 +11583,7 @@
     "en": "thank",
     "zh": "[動詞] 感謝; [名詞] 感謝;謝意;謝辭",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "Thanksgiving",
@@ -11607,7 +11607,7 @@
     "en": "the",
     "zh": "[冠詞] 這",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "theater",
@@ -11715,13 +11715,13 @@
     "en": "thing",
     "zh": "[名詞] 事物;東西",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "think",
     "zh": "[動詞] 想",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "third",
@@ -11751,7 +11751,7 @@
     "en": "this",
     "zh": "[形容詞] 這; [副詞] 這麼,這樣地; [代名詞] 這個;這人;這事",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "those",
@@ -11781,7 +11781,7 @@
     "en": "three",
     "zh": "[形容詞] 三的; [名詞] 三",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "throat",
@@ -11805,7 +11805,7 @@
     "en": "throw",
     "zh": "[動詞] 投;拋",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "thumb",
@@ -11865,7 +11865,7 @@
     "en": "time",
     "zh": "[動詞] 記錄...的時間;使合拍子; [名詞] 時間;次數",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "tiny",
@@ -11889,13 +11889,13 @@
     "en": "title",
     "zh": "[名詞] 標題;頭銜",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "to",
     "zh": "[介系詞] 到;向",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "toast",
@@ -11907,7 +11907,7 @@
     "en": "today",
     "zh": "[副詞] 今天; [名詞] 今天",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "toe",
@@ -11919,7 +11919,7 @@
     "en": "tofu",
     "zh": "[名詞] 豆腐",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "together",
@@ -11961,7 +11961,7 @@
     "en": "too",
     "zh": "[副詞] 也是;過於",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "tool",
@@ -12183,7 +12183,7 @@
     "en": "true",
     "zh": "[形容詞] 真實的;正確的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "trumpet",
@@ -12210,7 +12210,7 @@
     "use": true
   },
   {
-    "en": "T-shirt",
+    "en": "Tshirt",
     "zh": "[名詞] 短袖圓領運動衫",
     "level": "初級",
     "use": true
@@ -12261,7 +12261,7 @@
     "en": "TV",
     "zh": "[縮寫] 電視",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "twelve",
@@ -12285,13 +12285,13 @@
     "en": "two",
     "zh": "[形容詞] 二的; [名詞] 二",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "type",
     "zh": "[動詞] 打字; [名詞] 類型",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "typhoon",
@@ -12393,7 +12393,7 @@
     "en": "up",
     "zh": "[形容詞] 向上的;上行的; [動詞] 提高;增加;舉起;突然站起; [副詞] 向上; [介系詞] 向...上",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "upon",
@@ -12423,13 +12423,13 @@
     "en": "USA",
     "zh": "[縮寫] 美國 (United States of America)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "use",
     "zh": "[動詞] 利用; [名詞] 用途",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "used",
@@ -12489,7 +12489,7 @@
     "en": "VCR",
     "zh": "[縮寫] 卡式錄放影機",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "vegetable",
@@ -12507,7 +12507,7 @@
     "en": "very",
     "zh": "[形容詞] 正是;恰好是;僅僅; [副詞] 很;非常",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "vest",
@@ -12525,7 +12525,7 @@
     "en": "video",
     "zh": "[形容詞] 電視的;電視影像的;錄影的; [名詞] 錄影機;錄影帶",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "view",
@@ -12657,7 +12657,7 @@
     "en": "want",
     "zh": "[動詞] 想要",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "war",
@@ -12729,7 +12729,7 @@
     "en": "we",
     "zh": "[代名詞] 我們",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "weak",
@@ -12867,7 +12867,7 @@
     "en": "what",
     "zh": "[形容詞] 什麼;多麼,何等; [代名詞] 什麼",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "whatever",
@@ -12903,7 +12903,7 @@
     "en": "where",
     "zh": "[副詞] 在哪兒; [連接詞] 在...處;到...的地方;...的地方",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "where's",
@@ -12939,7 +12939,7 @@
     "en": "who",
     "zh": "[代名詞] 誰",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "who'd",
@@ -12975,7 +12975,7 @@
     "en": "why",
     "zh": "[副詞] 為什麼; [連接詞] 為什麼",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "wide",
@@ -12993,7 +12993,7 @@
     "en": "width",
     "zh": "[名詞] 寬度",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "wife",
@@ -13011,7 +13011,7 @@
     "en": "will",
     "zh": "[助動詞] 將; [名詞] 意志;決心;遺囑",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "willing",
@@ -13023,7 +13023,7 @@
     "en": "win",
     "zh": "[動詞] 贏得; [名詞] 獲勝,成功,贏;贏得物",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "wind",
@@ -13035,7 +13035,7 @@
     "en": "window",
     "zh": "[名詞] 窗戶",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "windy",
@@ -13083,7 +13083,7 @@
     "en": "with",
     "zh": "[介系詞] 跟...在一起;有",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "within",
@@ -13149,13 +13149,13 @@
     "en": "word",
     "zh": "[名詞] 字",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "work",
     "zh": "[動詞] 工作; 運轉; [名詞] 工作,作品",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "worker",
@@ -13209,7 +13209,7 @@
     "en": "write",
     "zh": "[動詞] 寫",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "writer",
@@ -13257,7 +13257,7 @@
     "en": "yes",
     "zh": "[副詞] 是; [感歎詞] (贊同或喜悅的強烈表達)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "yesterday",
@@ -13275,7 +13275,7 @@
     "en": "you",
     "zh": "[代名詞] 你;你們",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "you'd",
@@ -13299,7 +13299,7 @@
     "en": "your",
     "zh": "[代名詞] (所有格) 你的;你們的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "you're",
@@ -13881,7 +13881,7 @@
     "en": "AI",
     "zh": "[名詞] 人工智慧 (artificial intelligence)",
     "level": "中高級",
-    "use": true
+    "use": false
   },
   {
     "en": "aide",
@@ -14517,7 +14517,7 @@
     "en": "ATM",
     "zh": "[名詞] Automatic Teller Machine 自動存提款機",
     "level": "中高級",
-    "use": true
+    "use": false
   },
   {
     "en": "atrocity",
@@ -18909,7 +18909,7 @@
     "en": "DVD",
     "zh": "[縮寫] 光碟",
     "level": "中高級",
-    "use": true
+    "use": false
   },
   {
     "en": "dwarf",
@@ -19365,7 +19365,7 @@
     "en": "EQ",
     "zh": "[縮寫] 情緒商數",
     "level": "中高級",
-    "use": true
+    "use": false
   },
   {
     "en": "equate",
@@ -22383,7 +22383,7 @@
     "en": "IQ",
     "zh": "[縮寫] 智商 (intelligence quotient)",
     "level": "中高級",
-    "use": true
+    "use": false
   },
   {
     "en": "ironic",
@@ -22725,7 +22725,7 @@
     "en": "LCD",
     "zh": "[縮寫] 液晶顯示 (liquid crystal display)",
     "level": "中高級",
-    "use": true
+    "use": false
   },
   {
     "en": "lead-in",
@@ -25179,7 +25179,7 @@
     "en": "PDA",
     "zh": "[縮寫] 個人數位助理",
     "level": "中高級",
-    "use": true
+    "use": false
   },
   {
     "en": "peace-keeping",
