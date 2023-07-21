@@ -5,6 +5,8 @@ var Config = {
 	empsPerWave: 1, // 每關 送的 EMP 数量
 	maxEmpsPerWave: 5, // 每關 送的 EMP 数量 的最大值
 	speakEnglish: true,
+	speakMap: true,
+	speakMapLang:'zh-TW',
 	maxHistoryLength: 30,
 	showMapWord: true,
 	showSetWord: true,
