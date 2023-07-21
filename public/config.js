@@ -45,46 +45,53 @@ var Config = {
 	},
 
 	// ====================================
-	EntityEnemyMissle: {
+
+	EntityEnemyMine: { // 小型敵人
 		speed: 30 * speedBase,
-		wordLength: {
-			min: 2,
-			max: 5
-		},
-	},
-	EntityEnemyMine: {
-		speed: 25 * speedBase,
+		$angleType: 0, // 0:  隨機其他模式形式 1: 飛向玩家 2: 隨機飛向
 		wordLength: {
 			min: 3,
 			max: 6
 		},
 	},
-	EntityEnemyDestroyer: {
-		speed: 15 * speedBase,
+
+	EntityEnemyMissle: { // 中型敵人生的子彈
+		speed: 35 * speedBase,
+		wordLength: {
+			min: 2,
+			max: 4
+		},
+	},
+	EntityEnemyDestroyer: { // 中型敵人(生小怪)
+		speed: 20 * speedBase,
+		$shootTimeBase: 2.5, // 射擊間隔倍數，越大越射越慢
 		wordLength: {
 			min: 7,
 			max: 10
 		},
 	},
-	EntityEnemyOppressor: {
-		speed: 10 * speedBase,
+	EntityEnemyOppressor: { // 大型敵人(單字閃彈槍)
+		speed: 15 * speedBase,
+		$shootTimeBase: 1, // 射擊間隔倍數，越大越射越慢
 		wordLength: {
 			min: 9,
 			max: 12
 		},
 	},
-	EntityEnemyBullet: {
-		speed: 40 * speedBase,
+	EntityEnemyBullet: { // 大型敵人 單字閃彈槍
+		speed: 50 * speedBase, 
 		wordLength: {
 			min: 1,
 			max: 1
 		},
 	},
+	// 聲音有存 localStorage
 	SoundManager: {
 		volume: 0.8,
 	},
 	Music: {
-		// _volume: 0.5,
+		volume: 0.6,
+		_volume: 0.6,
 	},
 	Sound: {
 		volume: 0.8,

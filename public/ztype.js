@@ -851,7 +851,7 @@ ig.module('impact.sound').defines(function() {
         currentTrack: null ,
         currentIndex: 0,
         random: false,
-        _volume: 0.5,
+        _volume: 1,
         _loop: true,
         _fadeInterval: 0,
         _fadeTimer: null ,
@@ -4292,20 +4292,35 @@ ig.module('game.entities.enemy-mine').requires('game.entities.enemy').defines(fu
             min: 3,
             max: 6
         },
+        angleType: 1,
         init: function(x, y, settings) {
             this.parent(x, y, settings);
             this.addAnim('idle', 1, [0]);
+            
+            if( Config.EntityEnemyMine.$angleType ===0){
+                this.angleType = Math.random() > 0.5 ? 1 : 2;
+            }
+
+            if(this.angleType === 1){
+                this.angle = this.angleTo(ig.game.player);
+            } else {
+                this.angle = (Math.random().map(0, 1, 67, 90) 
+                    + (this.pos.x > ig.system.width / 2 ? 22.5 : 0)) * Math.PI / 180;
+                this.currentAnim.angle = this.angle - Math.PI / 2;
+            }
         },
         kill: function(silent) {
             this.parent(silent);
             ig.game.screenShake(5);
         },
         update: function() {
-            this.angle = this.angleTo(ig.game.player);
+            if(this.angleType === 1){
+                this.angle = this.angleTo(ig.game.player);
+            }
             this.parent();
             this.currentAnim.angle += 2 * ig.system.tick;
         },
-        ...Config.EntityEnemyMissle,
+        ...Config.EntityEnemyMine,
     });
 });
 
@@ -4335,7 +4350,9 @@ ig.module('game.entities.enemy-destroyer').requires('game.entities.enemy', 'game
         init: function(x, y, settings) {
             this.parent(x, y, settings);
             this.addAnim('idle', 1, [0]);
-            this.shootTimer = new ig.Timer(ig.doc ? 12 : 5);
+            var shootTime = (ig.doc ? 12 : 5) * (Config.EntityEnemyDestroyer.$shootTimeBase ?? 1);
+            // shootTime = shootTime.toFixed(0);
+            this.shootTimer = new ig.Timer(shootTime);
             this.angle = (Math.random().map(0, 1, 67, 90) 
             + (this.pos.x > ig.system.width / 2 ? 22.5 : 0)) * Math.PI / 180;
             this.currentAnim.angle = this.angle - Math.PI / 2;
@@ -4389,7 +4406,8 @@ ig.module('game.entities.enemy-oppressor').requires('game.entities.enemy').defin
         init: function(x, y, settings) {
             this.parent(x, y - 18, settings);
             this.addAnim('idle', 1, [0]);
-            this.shootTimer = new ig.Timer(ig.doc ? 14 : 7);
+            var shootTime = (ig.doc ? 14 : 7) * (Config.EntityEnemyOppressor.$shootTimeBase ?? 1);
+            this.shootTimer = new ig.Timer(shootTime);
             this.angle = Math.PI / 2;
         },
         kill: function(silent) {
@@ -5823,15 +5841,15 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             types: [{
                 type: EntityEnemyOppressor,
                 count: 0, // 初始數量
-                incEvery: 12 // 每Ｎ關加一個
+                incEvery: 13 // 每Ｎ關加一個
             }, {
                 type: EntityEnemyDestroyer,
                 count: 1, // 初始數量
-                incEvery: 6 // 每Ｎ關加一個
+                incEvery: 5 // 每Ｎ關加一個
             }, {
                 type: EntityEnemyMine,
-                count: 2, // 初始數量
-                incEvery: 2 // 每Ｎ關加一個
+                count: 4, // 初始數量
+                incEvery: 1 // 每Ｎ關加一個
             }]
         }
     };
