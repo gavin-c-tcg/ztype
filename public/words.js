@@ -1,4 +1,6 @@
-var words = {
+
+	// 10 - 0
+	var words = {
   "set": {
     "2": [
       "ox"
@@ -1736,4 +1738,4 @@ var words = {
     "zero": "零的",
     "zoo": "動物園"
   }
-}
+};

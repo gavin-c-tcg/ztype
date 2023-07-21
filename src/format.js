@@ -93,8 +93,11 @@ console.log(Object.entries(set).map(([key,value])=> value.length).reduce((a,b)=>
 console.log(newWords.length);
 
 
-
-fs.writeFile("./public/words.js", `var words = ${JSON.stringify(json,null,2)}`, function(err) {
+const js = `
+	// ${Number(process.argv[2])} - ${Number(process.argv[3])}
+	var words = ${JSON.stringify(json,null,2)};
+`;
+fs.writeFile("./public/words.js", js, function(err) {
 		if(err) {
 				return console.log(err);
 		}
