@@ -5323,6 +5323,9 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
                 else if (this.waveEndTimer && this.waveEndTimer.delta() > 0) {
                     this.waveEndTimer = null ;
                     this.nextWave();
+                    if(ig.game.emps < Config.maxEmpsPerWave){
+                        ig.game.emps += Config.empsPerWave;
+                    }
                 }
             } 
             else if (this.spawnTimer.delta() > this.wave.currentSpawnWait) {
