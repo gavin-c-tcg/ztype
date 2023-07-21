@@ -63,8 +63,8 @@ var Config = {
 	EntityEnemyMine: { // 小型敵人
 		speed: 30 * speedBase,
 		$angleType: 0, // 0:  隨機其他模式形式 1: 飛向玩家 2: 隨機飛向
-		$initCount: 4, // 初始數量
-		$incEvery: 1, // 每Ｎ關加一個
+		$initCount: 5, // 初始數量
+		$incEvery: 3, // 每Ｎ關加一個
 		wordLength: {
 			min: 3,
 			max: 6
