@@ -4,16 +4,21 @@ var Config = {
 	emps: 5,
 	empsPerWave: 1, // 每關 送的 EMP 数量
 	maxEmpsPerWave: 5, // 每關 送的 EMP 数量 的最大值
-	speakEnglish: true,
-	speakMap: true,
-	speakMapLang:'zh-TW',
 	maxHistoryLength: 30,
 	showMapWord: true,
 	showSetWord: true,
+	speakEnglish: true,
 	speak:{
 		rate: 1, // 確認速度 0.1 ~ 2
 		pitch: 1, // 確認音調 0 ~ 2
 		volume: 1, // 確認音量 0.1 ~ 1
+	},
+	speakMap: true,
+	mapSpeak:{
+		rate: 1, // 確認速度 0.1 ~ 2
+		pitch: 1, // 確認音調 0 ~ 2
+		volume: 0.7, // 確認音量 0.1 ~ 1
+		lang:'zh-TW',
 	},
 	getWordWithLength: function (l,ig) {
 		const w = String.fromCharCode('a'.charCodeAt(0) + (Math.random() * 26).floor());

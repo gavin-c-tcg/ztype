@@ -459,15 +459,15 @@ speak("")
 const speakMap = (word="apple") => {
     const speaker = window.speechSynthesis;
     const voices = speaker.getVoices();
-    const voice = voices.find(voice => voice.lang === (Config.speakMapLang || 'zh-TW') );
+    const voice = voices.find(voice => voice.lang === (Config.mapSpeak.lang || 'zh-TW') );
 
 
     let ssu = new SpeechSynthesisUtterance(word);
     ssu.lang = 'en-US'; // 語言
     ssu.voice = voice;  // 设置语音库
-    ssu.rate = Config.speak.rate; // 確認速度 0.1 ~ 2
-    ssu.pitch = Config.speak.pitch; // 確認音調 0 ~ 2
-    ssu.volume = Config.speak.volume; // 確認音量 0.1 ~ 1
+    ssu.rate = Config.mapSpeak.rate; // 確認速度 0.1 ~ 2
+    ssu.pitch = Config.mapSpeak.pitch; // 確認音調 0 ~ 2
+    ssu.volume = Config.mapSpeak.volume; // 確認音量 0.1 ~ 1
 
     speaker.speak(ssu); // 開始講
 }
