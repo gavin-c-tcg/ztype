@@ -45,32 +45,47 @@ const newWords = words
 })
 
 
+// 遊戲單字翻譯
 const map = newWords.reduce((acc,el)=>{
 	acc[el.en] = el.zh;
 	return acc;
 },{});
 
 
-
+// 遊戲單字
 const set = newWords.reduce((acc,el)=>{
 	const key = el.en.length > 12 ? 12 : el.en.length;
-	if(!acc[key]) {
-		acc[key] = [];
-	}
+	if(!acc[key]) acc[key] = [];
 	acc[key].push(el.en);
 	return acc;
 },{});
 
+//================================================
+// 單字分組
+const minGroup = 3; // 最少幾個單字
+if(Number(process.argv[2]) && Number(process.argv[3])){
+	Object.entries(set).forEach(([key,value])=> {
+		set[key] = value.filter((el,i)=>{
+			if(value.length < minGroup) return true;
+			return i % Number(process.argv[2]) === Number(process.argv[3])
+		});
+	});
+}
+//================================================
+
+
 const json = {
+	set,
 	map,
-	set
 }
 
 console.log(
 	Object.entries(set).map(([key,value])=> `${key}: ${value.length}`).join("\n")
 );
 
+console.log(Object.entries(set).map(([key,value])=> value.length).reduce((a,b)=>a+b,0));
 console.log(newWords.length);
+
 
 
 fs.writeFile("./public/words.js", `var words = ${JSON.stringify(json,null,2)}`, function(err) {
