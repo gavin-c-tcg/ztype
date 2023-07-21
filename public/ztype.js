@@ -440,6 +440,23 @@
     }
 })(window);
 
+const speak = (word="apple") => {
+    const speaker = window.speechSynthesis;
+    const voices = speaker.getVoices();
+    const voice = voices.find(voice => voice.name === 'Google US English') ?? voices.find(voice => voice.lang === 'en-US'); 
+
+
+    let ssu = new SpeechSynthesisUtterance(word);
+    ssu.lang = 'en-US'; // 語言
+    ssu.voice = voice;  // 设置语音库
+    ssu.rate = Config.speak.rate; // 確認速度 0.1 ~ 2
+    ssu.pitch = Config.speak.pitch; // 確認音調 0 ~ 2
+    ssu.volume = Config.speak.volume; // 確認音量 0.1 ~ 1
+
+    speaker.speak(ssu); // 開始講
+}
+speak("")
+
 // lib/impact/image.js
 ig.baked = true;
 ig.module('impact.image').defines(function() {
@@ -809,7 +826,8 @@ ig.module('impact.sound').defines(function() {
             channels[0].pause();
             channels[0].currentTime = 0;
             return channels[0];
-        }
+        },
+        ...Config.SoundManager
     });
     ig.Music = ig.Class.extend({
         tracks: [],
@@ -817,7 +835,7 @@ ig.module('impact.sound').defines(function() {
         currentTrack: null ,
         currentIndex: 0,
         random: false,
-        _volume: 1,
+        _volume: 0.5,
         _loop: true,
         _fadeInterval: 0,
         _fadeTimer: null ,
@@ -967,7 +985,8 @@ ig.module('impact.sound').defines(function() {
             else {
                 this.next();
             }
-        }
+        },
+        ...Config.Music
     });
     ig.Sound = ig.Class.extend({
         path: '',
@@ -1044,7 +1063,8 @@ ig.module('impact.sound').defines(function() {
                     this.currentClip.currentTime = 0;
                 } catch (err) {}
             }
-        }
+        },
+        ...Config.Sound
     });
     ig.Sound.WebAudioSource = ig.Class.extend({
         sources: [],
@@ -5456,8 +5476,13 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             }
             if (this.currentTarget) {
                 var target = this.currentTarget;
+                var remainingWordOld = target.remainingWord;
                 var hit = this.currentTarget.isHitBy(letter);
                 if (hit) {
+                    if(target.word === remainingWordOld && Config.speakEnglish){
+                        console.log(target.word);
+                        speak(target.word);
+                    }
                     this.player.shoot(target);
                     this.score += this.multiplier;
                     this.hits++;

@@ -1,6 +1,11 @@
 var Config = {
 	emps: 5,
-
+	speakEnglish: true,
+	speak:{
+		rate: 1, // 確認速度 0.1 ~ 2
+		pitch: 1, // 確認音調 0 ~ 2
+		volume: 1, // 確認音量 0.1 ~ 1
+	},
 	EntityEnemyMissle: {
 		speed: 30,
 		wordLength: {
@@ -35,5 +40,14 @@ var Config = {
 			min: 1,
 			max: 1
 		},
+	},
+	SoundManager: {
+		volume: 0.8,
+	},
+	Music: {
+		// _volume: 0.5,
+	},
+	Sound: {
+		volume: 0.8,
 	},
 };
