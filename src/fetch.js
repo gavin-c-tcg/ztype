@@ -46,7 +46,7 @@ for(const key of a2z) {
 console.log(words.length);
 
 
-words.sort((a,b)=> a.level.localeCompare(b.level));
+words.sort((a,b)=> b.level.localeCompare(a.level));
 // save to file json
 
 fs.writeFile("words.json", JSON.stringify(words,null,2), function(err) {

@@ -3053,6 +3053,8 @@ ig.module('game.xhr').defines(function() {
     ;
 });
 
+
+
 // lib/game/menus/stats.js
 ig.baked = true;
 ig.module('game.menus.stats').requires('game.menus.base', 'game.xhr').defines(function() {
@@ -3071,21 +3073,32 @@ ig.module('game.menus.stats').requires('game.menus.base', 'game.xhr').defines(fu
             this.timer = new ig.Timer();
         },
         submit: function(data) {
-            if (window.Cocoon || window.Ejecta) {
-                var games = JSON.parse(localStorage.getItem('stats') || '[]');
-                if (games.length > 30) {
-                    games.shift();
-                }
-                data.created = (Date.now() / 1000) | 0;
-                games.push(data);
-                localStorage.setItem('stats', JSON.stringify(games));
-                this.receivedData({
-                    games: games
-                });
-            } 
-            else {
-                ig.xhr('backend/', data, this.receivedData.bind(this));
+            
+            console.log(`===> score: ${data.score} accuracy: ${data.accuracy.toFixed(2)} streak: ${data.streak} wave: ${data.wave}`); 
+            const history = JSON.parse(localStorage.getItem('history') || '[]');
+            history.push({ created: Date.now()/1000, score: data.score, })
+            // list 保留後 100 条数据
+            if(history.length > Config.maxHistoryLength) {
+                history.splice(0, history.length -  Config.maxHistoryLength);
             }
+
+            localStorage.setItem('history', JSON.stringify(history));
+            this.receivedData({ games: history });
+            // if (window.Cocoon || window.Ejecta) {
+            //     var games = JSON.parse(localStorage.getItem('stats') || '[]');
+            //     if (games.length > 30) {
+            //         games.shift();
+            //     }
+            //     data.created = (Date.now() / 1000) | 0;
+            //     games.push(data);
+            //     localStorage.setItem('stats', JSON.stringify(games));
+            //     this.receivedData({
+            //         games: games
+            //     });
+            // } 
+            // else {
+            //     ig.xhr('backend/', data, this.receivedData.bind(this));
+            // }
         },
         load: function() {
             if (window.Cocoon || window.Ejecta) {} 
@@ -3645,7 +3658,7 @@ ig.module('game.menus.title').requires('game.menus.base', 'game.menus.detailed-s
                 }
             }
 
-            console.log(this.items);
+            // console.log(this.items);
             this.width = ig.system.width / this.scale;
             this.playerPos.x = (ig.system.width - this.ship.width) / 2;
             this.playerPos.y = 400;
@@ -4086,15 +4099,17 @@ ig.module('game.entities.enemy').requires('impact.entity', 'impact.font', 'game.
             var by = ig.system.getDrawPos(y - 1);
             ig.system.context.fillStyle = 'rgba(0,0,0,0.75)';
             ig.system.context.fillRect(bx, by + 5, w + 8, 24);
-            if (this.targeted) {
-                this.fontActive.draw(this.remainingWord, x + 2, y + 6, ig.Font.ALIGN.RIGHT);
-            } 
-            else {
-                this.font.draw(this.remainingWord, x + 2, y + 6, ig.Font.ALIGN.RIGHT);
+            if(Config.showSetWord){
+                if (this.targeted) {
+                    this.fontActive.draw(this.remainingWord, x + 2, y + 6, ig.Font.ALIGN.RIGHT);
+                } 
+                else {
+                    this.font.draw(this.remainingWord, x + 2, y + 6, ig.Font.ALIGN.RIGHT);
+                }
             }
 
             // 加入中文
-            if(ig.WORDS.MAP[this.word]){
+            if(ig.WORDS.MAP[this.word] && Config.showMapWord){
                 ig.system.context.font = 'bold 16px avenir';
                 ig.system.context.fillStyle = "#ffffff";
                 ig.system.context.globalAlpha = 0.3;
@@ -5480,7 +5495,7 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
                 var hit = this.currentTarget.isHitBy(letter);
                 if (hit) {
                     if(target.word === remainingWordOld && Config.speakEnglish){
-                        console.log(target.word);
+                        // console.log(target.word);
                         speak(target.word);
                     }
                     this.player.shoot(target);
