@@ -1,4 +1,4 @@
-var speedBase = 1;
+var speedBase = 0.7;
 var Config = {
 	hackMode: 1, // 0:模拟手速, 1: 零失误
 	emps: 5,

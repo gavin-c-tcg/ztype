@@ -9747,13 +9747,13 @@
     "en": "sad",
     "zh": "[形容詞] 難過的",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "safe",
     "zh": "[形容詞] 安全的; [名詞] 保險箱",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "safety",
@@ -12417,7 +12417,7 @@
     "en": "us",
     "zh": "[代名詞] 我們 (受格)",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "USA",

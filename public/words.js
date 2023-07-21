@@ -1069,8 +1069,6 @@ var words = {
     "rush": "催促",
     "Russia": "俄羅斯",
     "Russian": "俄語",
-    "sad": "難過的",
-    "safe": "安全的",
     "safety": "安全",
     "sail": "航行",
     "sailor": "水手",
@@ -1439,7 +1437,6 @@ var words = {
     "upon": "在...之上",
     "upper": "鞋幫",
     "upstairs": "樓上",
-    "us": "我們",
     "used": "舊的",
     "useful": "有用的",
     "user": "使用者",
@@ -1559,8 +1556,7 @@ var words = {
   },
   "set": {
     "2": [
-      "ox",
-      "us"
+      "ox"
     ],
     "3": [
       "act",
@@ -1625,7 +1621,6 @@ var words = {
       "rat",
       "rob",
       "rub",
-      "sad",
       "set",
       "shy",
       "ski",
@@ -1846,7 +1841,6 @@ var words = {
       "rude",
       "ruin",
       "rush",
-      "safe",
       "sail",
       "sale",
       "salt",
