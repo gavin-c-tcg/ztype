@@ -9,8 +9,8 @@
   "scripts": {
     "fetch.word": "node src/fetch.js",
     "format.word": "node src/format.js",
-    "start": "open 'http://localhost:5001' && serve ./public  -l 5001"
-  
+    "start": "serve ./public  -l 5001",
+    "open": "open 'http://localhost:5001' && serve ./public  -l 5001"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
