@@ -1,3 +1,5 @@
+// line 5826 關卡敵人數量
+
 var speedBase = 0.7;
 var Config = {
 	hackMode: 1, // 0:模拟手速, 1: 零失误
@@ -20,13 +22,13 @@ var Config = {
 		volume: 0.7, // 確認音量 0.1 ~ 1
 		lang:'zh-TW',
 	},
-	
+
 	// ====================================
 	getWordWithLength: function (l,ig) { // 單字產生器
 		const w = String.fromCharCode('a'.charCodeAt(0) + (Math.random() * 26).floor());
 		if(l === 1) return w;
 
-
+// debugger
 		const maxLength = 12
 		const minLength = 3
 

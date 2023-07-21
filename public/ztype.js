@@ -5269,6 +5269,7 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             this.waveEndTimer = null ;
         },
         nextWave: function() {
+            // debugger
             this.wave.wave++;
             this.wave.spawnWait = (this.wave.spawnWait * 0.97).limit(0.2, 1);
             this.wave.currentSpawnWait = this.wave.spawnWait;
@@ -5818,19 +5819,19 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             spawn: [],
             spawnWait: 0.7,
             healthBoost: 0,
-            speedIncrease: 1.05,
+            speedIncrease: 1.05, // 敵人速度 基數
             types: [{
                 type: EntityEnemyOppressor,
-                count: 0,
-                incEvery: 7
+                count: 0, // 初始數量
+                incEvery: 12 // 每Ｎ關加一個
             }, {
                 type: EntityEnemyDestroyer,
-                count: 0,
-                incEvery: 3
+                count: 1, // 初始數量
+                incEvery: 6 // 每Ｎ關加一個
             }, {
                 type: EntityEnemyMine,
-                count: 3,
-                incEvery: 1
+                count: 2, // 初始數量
+                incEvery: 2 // 每Ｎ關加一個
             }]
         }
     };
