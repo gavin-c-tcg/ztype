@@ -130,40 +130,58 @@
             console.log(e.keyCode);
             if (!e.altKey) return;
 
-            if (e.keyCode == 49) // 1
+            if (e.keyCode == 49) {// 1
+                console.log("切換機槍（自動射擊）。無->慢->快->無..");
                 window.trainer.toggleMachineGun();
+            }
 
             if (e.keyCode == 50) { // 2
+                console.log("手動機槍（按任意鍵射擊！給你的朋友留下深刻印象）");
                 if (!originalFuncs['shoot'])
                     window.trainer.manualMachineGun();
                 else
                     window.trainer.manualMachineGunOff();
             }
 
-            if (e.keyCode == 51) // 3
+            if (e.keyCode == 51) {// 3
+                console.log("即時殺死（一槍殺死）");
                 window.trainer.toggleInstantKill();
+            }
 
-            if (e.keyCode == 52) // 4
+            if (e.keyCode == 52) {// 4
+                console.log("無限 EMP（按下enter即可使用）");
                 window.trainer.unlimitedEmp();
+            }
 
-            if (e.keyCode == 53) // 5
+            if (e.keyCode == 53) {// 5
+                console.log("上帝模式（可與Alt+一起使用0）");
                 window.trainer.toggleGodMode();
+            }
 
-            if (e.keyCode == 54) // 6
+            if (e.keyCode == 54) {// 6
+                console.log("霰彈槍（殺死所有敵人）");
                 window.trainer.shotgun();
+            }
 
-            if (e.keyCode == 55) // 7
+            if (e.keyCode == 55) {// 7
+                console.log("很多敵人（產生 80 個敵人）");
                 window.trainer.aLotOfEnemies();
+            }
 
-            if (e.keyCode == 56) // 8
+            if (e.keyCode == 56){ // 8
+                console.log("許多快速移動的敵人（產生 80 個快速移動的敵人）");
                 window.trainer.aLotOfFastEnemies();
+            }
 
-            if (e.keyCode == 57) // 9
+            if (e.keyCode == 57) {// 9
+                console.log("全部停用");
                 window.trainer.deactivateAll();
+            }
 
-            if (e.keyCode == 48) // 0
+            if (e.keyCode == 48) { // 0
+                console.log("禁用屏幕抖動");
                 window.trainer.noScreenShake();
-
+            }
             if (e.keyCode == 189) { // -
                 $("#ztype-gsense-ins").hide();
                 $("#trailer-info").hide();
