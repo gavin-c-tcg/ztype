@@ -75,10 +75,10 @@ var Config = {
 		speed: 20 * speedBase,
 		$shootTimeBase: 2.5, // 射擊間隔倍數，越大越射越慢
 		$initCount: 0, // 初始數量
-		$incEvery: 10000, // 每Ｎ關加一個
+		$incEvery: 5, // 每Ｎ關加一個
 		wordLength: {
 			min: 7,
-			max: 10
+			max: 12
 		},
 	},
 	EntityEnemyMissle: { //[子彈] 中型敵人生的子彈

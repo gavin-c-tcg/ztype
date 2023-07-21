@@ -60,13 +60,19 @@ const set = newWords.reduce((acc,el)=>{
 	return acc;
 },{});
 
+
+console.log(
+	Object.entries(set).map(([key,value])=> `${key}: ${value.length}`).join("\n")
+);
+console.log("===================");
+
 //================================================
 // 單字分組
-const minGroup = 3; // 最少幾個單字
-if(Number(process.argv[2]) && Number(process.argv[3])){
+const minGroup = 5; // 最少幾個單字
+if(!Number.isNaN(Number(process.argv[2])) && !Number.isNaN(Number(process.argv[3]))){
 	Object.entries(set).forEach(([key,value])=> {
 		set[key] = value.filter((el,i)=>{
-			if(value.length < minGroup) return true;
+			if(value.length < minGroup || value.length < Number(process.argv[2]) ) return true;
 			return i % Number(process.argv[2]) === Number(process.argv[3])
 		});
 	});
