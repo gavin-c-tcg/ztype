@@ -4137,7 +4137,7 @@ ig.module('game.entities.enemy').requires('impact.entity', 'impact.font', 'game.
                 ig.system.context.globalAlpha = 0.3;
                 ig.system.context.textAlign = "center";
                 ig.system.context.textBaseline = 'middle';
-                ig.system.context.fillText(ig.WORDS.MAP[this.word], ig.system.getDrawPos(x - w/2), ig.system.getDrawPos(y - 0));
+                ig.system.context.fillText(ig.WORDS.MAP[this.word], ig.system.getDrawPos(x - w/2), ig.system.getDrawPos(y + ( Config.mapWordPosition==1 ? 0 : 40)));
                 ig.system.context.globalAlpha=1;
             }
 
