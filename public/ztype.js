@@ -5513,15 +5513,16 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
                 var remainingWordOld = target.remainingWord;
                 var hit = this.currentTarget.isHitBy(letter);
                 if (hit) {
-                    if(target.word === remainingWordOld && Config.speakEnglish){
-                        // console.log(target.word);
-                        speak(target.word);
+                    if(target.word.length > 2){
+                        if(target.word === remainingWordOld && Config.speakEnglish){
+                            // console.log(target.word);
+                            speak(target.word);
+                        }
+                        if(target.word === remainingWordOld && Config.speakMap){
+                            // console.log(target.word);
+                            speakMap(ig.WORDS.MAP[target.word]);
+                        }
                     }
-                    if(target.word === remainingWordOld && Config.speakMap){
-                        // console.log(target.word);
-                        speakMap(ig.WORDS.MAP[target.word]);
-                    }
-                    
                     this.player.shoot(target);
                     this.score += this.multiplier;
                     this.hits++;
