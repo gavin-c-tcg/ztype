@@ -4124,7 +4124,7 @@ ig.module('game.entities.enemy').requires('impact.entity', 'impact.font', 'game.
                 this.fontActive.draw(this.remainingWord, x + 2, y + 6, ig.Font.ALIGN.RIGHT);
             } 
             else {
-                if(Config.showSetWord){
+                if(Config.showSetWord || this.word.length <= 1){
                     ig.system.context.fillRect(bx, by + 5, w + 8, 24);
                     this.font.draw(this.remainingWord, x + 2, y + 6, ig.Font.ALIGN.RIGHT);
                 }
@@ -4137,7 +4137,7 @@ ig.module('game.entities.enemy').requires('impact.entity', 'impact.font', 'game.
                 ig.system.context.globalAlpha = 0.3;
                 ig.system.context.textAlign = "center";
                 ig.system.context.textBaseline = 'middle';
-                ig.system.context.fillText(ig.WORDS.MAP[this.word], ig.system.getDrawPos(x - w/2), ig.system.getDrawPos(y + 48));
+                ig.system.context.fillText(ig.WORDS.MAP[this.word], ig.system.getDrawPos(x - w/2), ig.system.getDrawPos(y - 0));
                 ig.system.context.globalAlpha=1;
             }
 
@@ -5845,16 +5845,16 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             speedIncrease: 1.05, // 敵人速度 基數
             types: [{
                 type: EntityEnemyOppressor,
-                count: 0, // 初始數量
-                incEvery: 13 // 每Ｎ關加一個
+                count: Config.EntityEnemyOppressor.$initCount ?? 0, // 初始數量
+                incEvery: Config.EntityEnemyOppressor.$incEvery ?? 13 // 每Ｎ關加一個
             }, {
                 type: EntityEnemyDestroyer,
-                count: 1, // 初始數量
-                incEvery: 5 // 每Ｎ關加一個
+                count: Config.EntityEnemyDestroyer.$initCount ?? 1, // 初始數量
+                incEvery: Config.EntityEnemyDestroyer.$incEvery ?? 5 // 每Ｎ關加一個
             }, {
                 type: EntityEnemyMine,
-                count: 4, // 初始數量
-                incEvery: 1 // 每Ｎ關加一個
+                count: Config.EntityEnemyMine.$initCount ?? 4, // 初始數量
+                incEvery: Config.EntityEnemyMine.$incEvery ?? 1 // 每Ｎ關加一個
             }]
         }
     };

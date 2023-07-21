@@ -1,4 +1,3 @@
-// line 5826 關卡敵人數量
 
 var speedBase = 0.7;
 var Config = {
@@ -63,36 +62,42 @@ var Config = {
 	EntityEnemyMine: { // 小型敵人
 		speed: 30 * speedBase,
 		$angleType: 0, // 0:  隨機其他模式形式 1: 飛向玩家 2: 隨機飛向
+		$initCount: 4, // 初始數量
+		$incEvery: 1, // 每Ｎ關加一個
 		wordLength: {
 			min: 3,
 			max: 6
 		},
 	},
 
-	EntityEnemyMissle: { // 中型敵人生的子彈
+	EntityEnemyDestroyer: { // 中型敵人(會生小怪)
+		speed: 20 * speedBase,
+		$shootTimeBase: 2.5, // 射擊間隔倍數，越大越射越慢
+		$initCount: 1, // 初始數量
+		$incEvery: 5, // 每Ｎ關加一個
+		wordLength: {
+			min: 7,
+			max: 10
+		},
+	},
+	EntityEnemyMissle: { //[子彈] 中型敵人生的子彈
 		speed: 35 * speedBase,
 		wordLength: {
 			min: 2,
 			max: 4
 		},
 	},
-	EntityEnemyDestroyer: { // 中型敵人(生小怪)
-		speed: 20 * speedBase,
-		$shootTimeBase: 2.5, // 射擊間隔倍數，越大越射越慢
-		wordLength: {
-			min: 7,
-			max: 10
-		},
-	},
-	EntityEnemyOppressor: { // 大型敵人(單字閃彈槍)
+	EntityEnemyOppressor: { // 大型敵人(會生單字閃彈)
 		speed: 15 * speedBase,
 		$shootTimeBase: 1, // 射擊間隔倍數，越大越射越慢
+		$initCount: 0, // 初始數量
+		$incEvery: 13, // 每Ｎ關加一個
 		wordLength: {
 			min: 9,
 			max: 12
 		},
 	},
-	EntityEnemyBullet: { // 大型敵人 單字閃彈槍
+	EntityEnemyBullet: { // [子彈] 大型敵人 單字閃彈槍
 		speed: 50 * speedBase, 
 		wordLength: {
 			min: 1,
