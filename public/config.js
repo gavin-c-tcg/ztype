@@ -36,10 +36,20 @@ var Config = {
 		l = l < minLength ? minLength : l;
 		if(l === maxLength && ig.game.wordlist[l].length === 0) return w;
 		if (l >= 2 && l <= maxLength) {
+			// 沒有單字
 			if(ig.game.wordlist[l].length === 0) {
 				return this.getWordWithLength(l+1,ig);
 			}
-			return ig.game.wordlist[l].random();
+
+			let temp = w;
+			for(let i = 0; i < 26; i++) { // 防止無限迴圈
+				temp = ig.game.wordlist[l].random();
+				// 字頭沒有重複
+				if (!ig.game.targets[temp.charAt(0).toLowerCase()].length) {
+					return temp;
+				}
+			}
+			return temp;
 		}
 		return w;
 	},
