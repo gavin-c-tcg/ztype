@@ -2,15 +2,15 @@
 
 var speedBase = 0.7;
 var Config = {
-	logWithMap: false, // 是否顯示翻譯單字
-	logWord: true, // 是否顯示單字
+	logWithMap: false, // 是否顯示翻譯單字 於 console
+	logWord: false, // 是否顯示單字 於 console
 	hackMode: 1, // 0:模拟手速, 1: 零失误
 	emps: 5, // 初始 EMP 数量
 	empsPerWave: 1, // 每關 送的 EMP 数量
 	maxEmpsPerWave: 5, // 每關 送的 EMP 数量 的最大值
 	maxHistoryLength: 30, // 最大历史记录长度
 	showMapWord: true, // 是否顯示翻譯單字
-	showSetWord: false, // 是否顯示目標單字
+	showSetWord: true, // 是否顯示目標單字
 	speakEnglish: true, // 是否發音英文
 	speak:{
 		rate: 1, // 確認速度 0.1 ~ 2
