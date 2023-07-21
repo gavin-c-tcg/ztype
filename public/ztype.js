@@ -4118,12 +4118,14 @@ ig.module('game.entities.enemy').requires('impact.entity', 'impact.font', 'game.
             var bx = ig.system.getDrawPos(x - w - 2);
             var by = ig.system.getDrawPos(y - 1);
             ig.system.context.fillStyle = 'rgba(0,0,0,0.75)';
-            ig.system.context.fillRect(bx, by + 5, w + 8, 24);
-            if(Config.showSetWord){
-                if (this.targeted) {
-                    this.fontActive.draw(this.remainingWord, x + 2, y + 6, ig.Font.ALIGN.RIGHT);
-                } 
-                else {
+            // ig.system.context.fillRect(bx, by + 5, w + 8, 24);
+            if (this.targeted) {
+                ig.system.context.fillRect(bx, by + 5, w + 8, 24);
+                this.fontActive.draw(this.remainingWord, x + 2, y + 6, ig.Font.ALIGN.RIGHT);
+            } 
+            else {
+                if(Config.showSetWord){
+                    ig.system.context.fillRect(bx, by + 5, w + 8, 24);
                     this.font.draw(this.remainingWord, x + 2, y + 6, ig.Font.ALIGN.RIGHT);
                 }
             }
@@ -5287,6 +5289,9 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             this.waveEndTimer = null ;
         },
         nextWave: function() {
+            if(Config.logWord){
+                console.clear();
+            }
             // debugger
             this.wave.wave++;
             this.wave.spawnWait = (this.wave.spawnWait * 0.97).limit(0.2, 1);
