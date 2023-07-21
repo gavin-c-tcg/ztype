@@ -15,6 +15,25 @@ var Config = {
 		pitch: 1, // 確認音調 0 ~ 2
 		volume: 1, // 確認音量 0.1 ~ 1
 	},
+	getWordWithLength: function (l,ig) {
+		const w = String.fromCharCode('a'.charCodeAt(0) + (Math.random() * 26).floor());
+		if(l === 1) return w;
+
+
+		const maxLength = 12
+		const minLength = 3
+
+		l = l > maxLength ? maxLength : l;
+		l = l < minLength ? minLength : l;
+		if(l === maxLength && ig.game.wordlist[l].length === 0) return w;
+		if (l >= 2 && l <= maxLength) {
+			if(ig.game.wordlist[l].length === 0) {
+				return this.getWordWithLength(l+1,ig);
+			}
+			return ig.game.wordlist[l].random();
+		}
+		return w;
+	},
 	EntityEnemyMissle: {
 		speed: 30 * speedBase,
 		wordLength: {

@@ -44,8 +44,6 @@ const newWords = words
 	}
 })
 
-console.log(newWords.length);
-
 
 const map = newWords.reduce((acc,el)=>{
 	acc[el.en] = el.zh;
@@ -67,6 +65,13 @@ const json = {
 	map,
 	set
 }
+
+console.log(
+	Object.entries(set).map(([key,value])=> `${key}: ${value.length}`).join("\n")
+);
+
+console.log(newWords.length);
+
 
 fs.writeFile("./public/words.js", `var words = ${JSON.stringify(json,null,2)}`, function(err) {
 		if(err) {

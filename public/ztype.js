@@ -4066,6 +4066,10 @@ ig.module('game.entities.enemy').requires('impact.entity', 'impact.font', 'game.
             }
         },
         getWordWithLength: function(l) {
+
+            const cw = Config.getWordWithLength?.(l,ig)
+            if(cw) return cw;
+
             var w = 'wtf';
             for (var i = 0; i < 20; i++) {
                 if (l >= 2 && l <= 12) {
