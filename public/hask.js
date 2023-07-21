@@ -34,7 +34,7 @@ window.addEventListener('load', function() {
 
 		var stopHack = true;
 		// 0:模拟手速, 1: 零失误
-		var mode = 0;
+		var mode = Config.hackMode;
 
 		var findWords = function() {
 				var targets = ig.game.targets,
@@ -79,6 +79,7 @@ window.addEventListener('load', function() {
 						var words = findWords()
 						var word = words.pop()
 						while (typeof word !== 'undefined') {
+								mode = Config.hackMode;
 								if (mode == 0) {
 										shootWordDelay(word, 100)
 								} else if (mode == 1) {

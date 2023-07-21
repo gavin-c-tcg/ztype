@@ -7,6 +7,19 @@
  * https://github.com/KevinWang15/ztype-trainer
  */
 
+// Alt+1	切換機槍（自動射擊）。無->慢->快->無..
+// Alt+2	切換手動機槍（按任意鍵射擊！給你的朋友留下深刻印象）
+// Alt+3	切換即時殺死（一槍殺死）
+// Alt+4	無限 EMP（按下enter即可使用）
+// Alt+5	上帝模式（可與Alt+一起使用0）
+// Alt+6	霰彈槍（殺死所有敵人）
+// Alt+7	很多敵人（產生 80 個敵人）
+// Alt+8	許多快速移動的敵人（產生 80 個快速移動的敵人）
+// Alt+9	全部停用
+// Alt+0	禁用屏幕抖動
+// Alt+-	無干擾模式（刪除遊戲以外的所有內容）
+
+
 (function () {
 
     function loadScript(url, callback) {
@@ -42,7 +55,7 @@
 
         var $ = jQuery;
 
-        $("body").prepend("<div id='trailer-info' style='text-align:center;padding:10px'>Trainer Activated. made by KevinWang, <a href='https://github.com/KevinWang15/ztype-trainer'>visit GitHub Page</a></div>")
+        $("body").prepend("<div id='trailer-info' style='text-align:center;padding:10px'>[alt/opt] + [1234567890-]: Trainer Activated. made by KevinWang, <a href='https://github.com/KevinWang15/ztype-trainer'>visit GitHub Page</a></div>")
 
 
         var intervals = {};
@@ -114,43 +127,44 @@
 
 
         $(document).bind('keydown', function (e) {
+            console.log(e.keyCode);
             if (!e.altKey) return;
 
-            if (e.keyCode == 49)
+            if (e.keyCode == 49) // 1
                 window.trainer.toggleMachineGun();
 
-            if (e.keyCode == 50) {
+            if (e.keyCode == 50) { // 2
                 if (!originalFuncs['shoot'])
                     window.trainer.manualMachineGun();
                 else
                     window.trainer.manualMachineGunOff();
             }
 
-            if (e.keyCode == 51)
+            if (e.keyCode == 51) // 3
                 window.trainer.toggleInstantKill();
 
-            if (e.keyCode == 52)
+            if (e.keyCode == 52) // 4
                 window.trainer.unlimitedEmp();
 
-            if (e.keyCode == 53)
+            if (e.keyCode == 53) // 5
                 window.trainer.toggleGodMode();
 
-            if (e.keyCode == 54)
+            if (e.keyCode == 54) // 6
                 window.trainer.shotgun();
 
-            if (e.keyCode == 55)
+            if (e.keyCode == 55) // 7
                 window.trainer.aLotOfEnemies();
 
-            if (e.keyCode == 56)
+            if (e.keyCode == 56) // 8
                 window.trainer.aLotOfFastEnemies();
 
-            if (e.keyCode == 57)
+            if (e.keyCode == 57) // 9
                 window.trainer.deactivateAll();
 
-            if (e.keyCode == 48)
+            if (e.keyCode == 48) // 0
                 window.trainer.noScreenShake();
 
-            if (e.keyCode == 189) {
+            if (e.keyCode == 189) { // -
                 $("#ztype-gsense-ins").hide();
                 $("#trailer-info").hide();
                 $("#ztype-byline").hide();

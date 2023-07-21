@@ -1,5 +1,6 @@
 var speedBase = 1;
 var Config = {
+	hackMode: 1, // 0:模拟手速, 1: 零失误
 	emps: 5,
 	speakEnglish: true,
 	maxHistoryLength: 30,
