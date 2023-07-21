@@ -16,12 +16,18 @@ const newWords = words
 .map((el)=>{
  	// "[動詞] 以尖嘯聲行進;拉開拉鍊; [名詞] (子彈的)尖嘯聲;拉鍊;零"
 	const zhList = el.zh
-		.replace(",",';')
-		.replace("；",';')
+		// .replace("、",';')
+		.replaceAll(",",';')
+		// .replaceAll(",",';')
+		// .replaceAll(",",';')
+		// .replaceAll("；",';')
+		// .replaceAll("；",';')
+		.replaceAll("；",';')
+		.replace(/\([^\(\)]*\)/g,"")
 		.replace(/\[[^\[\]]*\]/g,"")
 		.split(";")
 		.map((el) => el.trim())
-		.map((el) => el.replace(/\([^\(\)]*\)/g,"").trim())
+		// .map((el) => el.replace(/\([^\(\)]*\)/g,"").trim())
 		.sort((a,b)=> a.length - b.length)
 		;
 

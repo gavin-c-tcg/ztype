@@ -393,7 +393,7 @@
     "en": "am",
     "zh": "[動詞] 是,在;  be 動詞第一人稱,單數,現在式",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "ambulance",
@@ -3255,7 +3255,7 @@
     "en": "do",
     "zh": "[動詞] 做; [助動詞] 構成否定句,疑問句,或強調句",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "doctor",
@@ -6111,7 +6111,7 @@
     "en": "is",
     "zh": "[動詞] 是,在;  be 動詞第三人稱,單數,現在式",
     "level": "初級",
-    "use": true
+    "use": false
   },
   {
     "en": "island",
