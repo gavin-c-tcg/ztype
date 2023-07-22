@@ -3089,10 +3089,32 @@ ig.module('game.menus.stats').requires('game.menus.base', 'game.xhr').defines(fu
             this.timer = new ig.Timer();
         },
         submit: function(data) {
+            console.log(`===> score: ${data.score} accuracy: ${data.accuracy.toFixed(2)} streak: ${data.streak} wave: ${data.wave} kills: ${data.kills}`); 
+
+            // check statistic type
+            const statisticType = JSON.parse(localStorage.getItem('statisticType') || '"accuracy"');
+            const ConfigStatisticType = 
+                Config.statisticType === 'kills' ? "kills" :
+                Config.statisticType === 'score' ? "score" : 
+                Config.statisticType === 'streak'? "streak" :
+                Config.statisticType === 'wave' ? "wave" :
+                Config.statisticType === 'accuracy' ? "accuracy" : "accuracy";
+            if(statisticType !== ConfigStatisticType) {
+                localStorage.setItem('history', JSON.stringify([]));
+                localStorage.setItem('statisticType', JSON.stringify(ConfigStatisticType));
+            }
+
+
+            // save to local storage
+            const score = 
+                Config.statisticType === 'kills' ? data.kills : 
+                Config.statisticType === 'score' ? data.score : 
+                Config.statisticType === 'streak'? data.streak :
+                Config.statisticType === 'wave' ? data.wave :
+                Config.statisticType === 'accuracy' ? data.accuracy.toFixed(2) : data.accuracy.toFixed(2);
             
-            console.log(`===> score: ${data.score} accuracy: ${data.accuracy.toFixed(2)} streak: ${data.streak} wave: ${data.wave}`); 
             const history = JSON.parse(localStorage.getItem('history') || '[]');
-            history.push({ created: Date.now()/1000, score: data.score, })
+            history.push({ created: Date.now()/1000, score: score, })
             // list 保留後 100 条数据
             if(history.length > Config.maxHistoryLength) {
                 history.splice(0, history.length -  Config.maxHistoryLength);
@@ -3100,6 +3122,8 @@ ig.module('game.menus.stats').requires('game.menus.base', 'game.xhr').defines(fu
 
             localStorage.setItem('history', JSON.stringify(history));
             this.receivedData({ games: history });
+
+            // original code
             // if (window.Cocoon || window.Ejecta) {
             //     var games = JSON.parse(localStorage.getItem('stats') || '[]');
             //     if (games.length > 30) {
@@ -3251,7 +3275,8 @@ ig.module('game.menus.game-over').requires('game.menus.base', 'game.menus.inters
                 score: ig.game.score,
                 wave: ig.game.wave.wave,
                 streak: ig.game.longestStreak,
-                accuracy: ig.game.hits ? ig.game.hits / (ig.game.hits + ig.game.misses) * 100 : 0
+                accuracy: ig.game.hits ? ig.game.hits / (ig.game.hits + ig.game.misses) * 100 : 0,
+                kills: ig.game.kills
             });
             this.timer = new ig.Timer();
         },

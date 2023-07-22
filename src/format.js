@@ -1,46 +1,64 @@
-import request from 'request';
-import { load } from 'cheerio';
 import fs from 'fs';
-import { log } from 'console';
 
 
 // read  word.json 
 const words = JSON.parse(fs.readFileSync('words.json', 'utf8'));
 
 
+const getZh = (zh) => {
+	 const zhList = zh
+	 // .replace("、",';')
+	 .replaceAll(",",';')
+	 // .replaceAll(",",';')
+	 // .replaceAll(",",';')
+	 // .replaceAll("；",';')
+	 // .replaceAll("；",';')
+	 .replaceAll("；",';')
+	 .replaceAll(/\([^\(\)]*\)/g,"")
+	 .replaceAll(/\[[^\[\]]*\]/g,"")
+	 .split(";")
+	 .map((el) => el.trim())
+	 // .map((el) => el.replace(/\([^\(\)]*\)/g,"").trim())
+	 .sort((a,b)=> a.length - b.length)
+	 ;
+
+	// 字數最少的
+	const zh2 = zhList.reduce((a,b)=> a.length > b.length ? b : a);
+	// 字數最少的 可以了話要字數大於等於2
+	const zh3 = zhList.find((el)=> el.length >= 2) || zh2;
+	// console.log(zh2.length,zh2);
+	return zh3
+}
+
+const getZh2 = (zh) => {
+	 const zhList = zh
+	 .replaceAll(",",';')
+	 .replaceAll(/\([^\(\)]*\)/g,"")
+	 .replaceAll(/\[[^\[\]]*\]/g,"")
+	 .replaceAll("；",';')
+	 .split(";")
+	 .map((el) => el.trim())
+	 .sort((a,b)=> a.length - b.length)
+	 ;
+
+	 return `${ zhList[0] ?? "" } ${ zhList[1] ?? "" }`.trim();
+
+}
 
 const newWords = words
 .filter((el)=> el.use)
 .filter((el)=> el.level === "初級")
 .filter((el)=> /^[a-zA-Z]+$/.test(el.en.trim()) )
 .map((el)=>{
- 	// "[動詞] 以尖嘯聲行進;拉開拉鍊; [名詞] (子彈的)尖嘯聲;拉鍊;零"
-	const zhList = el.zh
-		// .replace("、",';')
-		.replaceAll(",",';')
-		// .replaceAll(",",';')
-		// .replaceAll(",",';')
-		// .replaceAll("；",';')
-		// .replaceAll("；",';')
-		.replaceAll("；",';')
-		.replace(/\([^\(\)]*\)/g,"")
-		.replace(/\[[^\[\]]*\]/g,"")
-		.split(";")
-		.map((el) => el.trim())
-		// .map((el) => el.replace(/\([^\(\)]*\)/g,"").trim())
-		.sort((a,b)=> a.length - b.length)
-		;
 
-	// 字數最少的
-	const zh = zhList.reduce((a,b)=> a.length > b.length ? b : a);
-	// 字數最少的 可以了話要字數大於等於2
-	const zh2 = zhList.find((el)=> el.length >= 2) || zh;
-	// console.log(zh2.length,zh2);
+ 	// "[動詞] 以尖嘯聲行進;拉開拉鍊; [名詞] (子彈的)尖嘯聲;拉鍊;零"
+	const zh = getZh2(el.zh);
+
 
 	return  {
 		// el.en.replace a-z A-Z
 		en: el.en.trim(),
-		zh:zh2,
+		zh: zh.trim(),
 	}
 })
 

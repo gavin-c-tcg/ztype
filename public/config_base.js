@@ -1,6 +1,7 @@
 
 
 var ConfigBase = {
+	statisticType :"accuracy", //統計圖表類型: score 分數, streak 正確敲擊數, wave 關卡數, accuracy 正確率, kills 殺敵數
 	spawnWait: 0.7, // 生成敵人間隔
 	speedIncrease: 0.7, // 敵人速度 基數倍數
 	hackMode: 1, // 0:模拟手速, 1: 零失误
@@ -80,7 +81,7 @@ var ConfigBase = {
 		if(Config.logWord){
 			console.clear();
 		}
-		console.log("下一關前",ig);
+		// console.log("下一關前",ig);
 	},
 
 	// ====================================
