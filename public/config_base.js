@@ -1,18 +1,19 @@
 
 
-var speedBase = 0.7;
-var Config = {
-	logWithMap: false, // 是否顯示翻譯單字
-	logWord: true, // 是否顯示單字
+var ConfigBase = {
+	speedIncrease: 0.7, // 敵人速度 基數倍數
 	hackMode: 1, // 0:模拟手速, 1: 零失误
 	emps: 5, // 初始 EMP 数量
 	empsPerWave: 1, // 每關 送的 EMP 数量
 	maxEmpsPerWave: 5, // 每關 送的 EMP 数量 的最大值
 	maxHistoryLength: 30, // 最大历史记录长度
 
-	mapWordPosition: 1, // 1: 顯示在單字上方 2: 顯示在單字下方
+	mapWordPosition: 2, // 1: 顯示在單字上方 2: 顯示在單字下方
 	showMapWord: true, // 是否顯示翻譯單字
-	showSetWord: false, // 是否顯示目標單字
+	showSetWord: true, // 是否顯示目標單字
+
+	logWithMap: false, // 是否顯示翻譯單字 於 console
+	logWord: false, // 是否顯示單字 於 console
 
 	speakEnglish: true, // 是否發音英文
 	speak:{
@@ -30,44 +31,64 @@ var Config = {
 
 	// ====================================
 	getWordWithLength: function (l,ig) { // 單字產生器
-		const w = String.fromCharCode('a'.charCodeAt(0) + (Math.random() * 26).floor());
-		if(l === 1) return w;
+		
+		let word = this._getBetterWord(ig, () => String.fromCharCode('a'.charCodeAt(0) + (Math.random() * 26).floor()));
 
-// debugger
+		if(l === 1){
+			this._onCreatedWord(word)
+			return word;
+		}
+
 		const maxLength = 12
 		const minLength = 3
-
 		l = l > maxLength ? maxLength : l;
 		l = l < minLength ? minLength : l;
-		if(l === maxLength && ig.game.wordlist[l].length === 0) return w;
+		if(l === maxLength && ig.game.wordlist[l].length === 0) {
+			this._onCreatedWord(word)
+			return word;
+		}
+
 		if (l >= 2 && l <= maxLength) {
 			// 沒有單字
-			if(ig.game.wordlist[l].length === 0) {
-				return this.getWordWithLength(l+1,ig);
-			}
-
-			let temp = w;
-			for(let i = 0; i < 26; i++) { // 防止無限迴圈
-				temp = ig.game.wordlist[l].random();
-				// 字頭沒有重複
-				if (!ig.game.targets[temp.charAt(0).toLowerCase()].length) {
-					if(Config.logWord) console.log(temp,Config.logWithMap ? words.map[temp] : "");
-					return temp;
-				}
-			}
-			if(Config.logWord) console.log(temp, Config.logWithMap ? words.map[temp] : "");
-			return temp;
+			if(ig.game.wordlist[l].length === 0) return this.getWordWithLength(l+1,ig);
+			word = this._getBetterWord(ig, () => ig.game.wordlist[l].random());
 		}
-		return w;
+
+		this._onCreatedWord(word)
+		return word;
+	},
+
+	_getBetterWord: function (ig, getWord) { // 單字產生器
+		let temp = getWord();
+		for(let i = 0; i < 26; i++) { // 防止無限迴圈
+			// 字頭沒有重複
+			if (!ig.game.targets[temp.charAt(0).toLowerCase()].length) {
+					return temp;
+					return temp;
+				return temp;
+			}
+			temp = getWord();
+		}
+		return temp; // 都重複了
+	},
+
+	_onCreatedWord: function (temp) { // 單字產生器
+		if(Config.logWord) console.log(temp, Config.logWithMap ? words.map[temp] : "");
+	},
+	onBeforeNextWave: function (ig) { // 下一關前
+		if(Config.logWord){
+			console.clear();
+		}
+		console.log("下一關前",ig);
 	},
 
 	// ====================================
 
 	EntityEnemyMine: { // 小型敵人
-		speed: 30 * speedBase,
+		speed: 30,
 		$angleType: 0, // 0:  隨機其他模式形式 1: 飛向玩家 2: 隨機飛向
-		$initCount: 5, // 初始數量
-		$incEvery: 3, // 每Ｎ關加一個
+		$initCount: 4, // 初始數量
+		$incEvery: 1, // 每Ｎ關加一個
 		wordLength: {
 			min: 3,
 			max: 6
@@ -75,34 +96,34 @@ var Config = {
 	},
 
 	EntityEnemyDestroyer: { // 中型敵人(會生小怪)
-		speed: 20 * speedBase,
+		speed: 20,
 		$shootTimeBase: 2.5, // 射擊間隔倍數，越大越射越慢
-		$initCount: 0, // 初始數量
+		$initCount: 1, // 初始數量
 		$incEvery: 5, // 每Ｎ關加一個
 		wordLength: {
 			min: 7,
-			max: 12
+			max: 10
 		},
 	},
 	EntityEnemyMissle: { //[子彈] 中型敵人生的子彈
-		speed: 35 * speedBase,
+		speed: 35,
 		wordLength: {
 			min: 2,
 			max: 4
 		},
 	},
 	EntityEnemyOppressor: { // 大型敵人(會生單字閃彈)
-		speed: 15 * speedBase,
+		speed: 15,
 		$shootTimeBase: 1, // 射擊間隔倍數，越大越射越慢
 		$initCount: 0, // 初始數量
-		$incEvery: 10000, // 每Ｎ關加一個
+		$incEvery: 13, // 每Ｎ關加一個
 		wordLength: {
 			min: 9,
 			max: 12
 		},
 	},
 	EntityEnemyBullet: { // [子彈] 大型敵人 單字閃彈槍
-		speed: 50 * speedBase, 
+		speed: 50, 
 		wordLength: {
 			min: 1,
 			max: 1

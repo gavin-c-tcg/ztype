@@ -5289,9 +5289,8 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             this.waveEndTimer = null ;
         },
         nextWave: function() {
-            if(Config.logWord){
-                console.clear();
-            }
+            
+            Config.onBeforeNextWave?.(ig)
             // debugger
             this.wave.wave++;
             this.wave.spawnWait = (this.wave.spawnWait * 0.97).limit(0.2, 1);
@@ -5821,19 +5820,19 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             spawn: [],
             spawnWait: 1,
             healthBoost: 0,
-            speedIncrease: 1.01,
+            speedIncrease: Config.speedIncrease ?? 1.01,
             types: [{
                 type: EntityEnemyOppressor,
-                count: 0,
-                incEvery: 9
+                count: Config.EntityEnemyOppressor.$initCount ?? 0, // 初始數量
+                incEvery: Config.EntityEnemyOppressor.$incEvery ?? 9 // 每Ｎ關加一個
             }, {
                 type: EntityEnemyDestroyer,
-                count: 0,
-                incEvery: 4
+                count: Config.EntityEnemyDestroyer.$initCount ?? 0, // 初始數量
+                incEvery: Config.EntityEnemyDestroyer.$incEvery ?? 4 // 每Ｎ關加一個
             }, {
                 type: EntityEnemyMine,
-                count: 3,
-                incEvery: 1
+                count: Config.EntityEnemyMine.$initCount ?? 3, // 初始數量
+                incEvery: Config.EntityEnemyMine.$incEvery ?? 1 // 每Ｎ關加一個
             }]
         },
         DESKTOP: {
@@ -5842,7 +5841,7 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             spawn: [],
             spawnWait: 0.7,
             healthBoost: 0,
-            speedIncrease: 1.05, // 敵人速度 基數
+            speedIncrease: Config.speedIncrease ?? 1.05, // 敵人速度 基數
             types: [{
                 type: EntityEnemyOppressor,
                 count: Config.EntityEnemyOppressor.$initCount ?? 0, // 初始數量
