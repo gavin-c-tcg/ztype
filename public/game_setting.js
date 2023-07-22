@@ -35,7 +35,7 @@ var Game2 = {
 	...ConfigBase,
 	statisticType: "kills", // 殺敵數
 
-	spawnWait: 3, // 生成敵人間隔
+	spawnWait: 2, // 生成敵人間隔
 	logWord: true, // 是否顯示單字
 	logWithMap: false, // 是否顯示翻譯單字
 	showSetWord: false, // 是否顯示目標單字
@@ -55,6 +55,7 @@ var Game2 = {
 	},
 	EntityEnemyDestroyer: { // 中型敵人(會生小怪)
 		...ConfigBase.EntityEnemyDestroyer,
+		speed: 30, // 速度
 		$shootTimeBase: 2.5, // 射擊間隔倍數，越大越射越慢
 		$initCount: 0, // 初始數量
 		$incEvery: 5, // 每Ｎ關加一個
