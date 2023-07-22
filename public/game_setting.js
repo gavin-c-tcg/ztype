@@ -2,7 +2,7 @@
 
 var Game1 = {
 	...ConfigBase,
-
+	statisticType: "accuracy", // 正確率
 
 	speakEnglish: true, // 是否發音英文
 	speakMap: false, // 是否發音翻譯
@@ -33,6 +33,8 @@ var Game1 = {
 
 var Game2 = {
 	...ConfigBase,
+	statisticType: "kills", // 殺敵數
+
 	spawnWait: 3, // 生成敵人間隔
 	logWord: true, // 是否顯示單字
 	logWithMap: false, // 是否顯示翻譯單字
