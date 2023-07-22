@@ -54,7 +54,8 @@ var Game2 = {
 	EntityEnemyMine: { // 小型敵人
 		...ConfigBase.EntityEnemyMine,
 		// speed: 40, // 速度
-		$angleType: 0, // 0:  隨機其他模式形式 1: 飛向玩家 2: 隨機飛向
+		
+		$angleType: 2, // 0:  隨機其他模式形式 1: 飛向玩家 2: 隨機飛向
 		$initCount: 5, // 初始數量
 		$incEvery: 2, // 每Ｎ關加一個
 	},
