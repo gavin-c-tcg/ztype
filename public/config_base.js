@@ -1,6 +1,7 @@
 
 
 var ConfigBase = {
+	spawnWait: 0.7, // 生成敵人間隔
 	speedIncrease: 0.7, // 敵人速度 基數倍數
 	hackMode: 1, // 0:模拟手速, 1: 零失误
 	emps: 5, // 初始 EMP 数量

@@ -33,7 +33,7 @@ var Game1 = {
 
 var Game2 = {
 	...ConfigBase,
-
+	spawnWait: 3, // 生成敵人間隔
 	logWord: true, // 是否顯示單字
 	logWithMap: false, // 是否顯示翻譯單字
 	showSetWord: false, // 是否顯示目標單字
@@ -46,9 +46,10 @@ var Game2 = {
 
 	EntityEnemyMine: { // 小型敵人
 		...ConfigBase.EntityEnemyMine,
+		speed: 40, // 速度
 		$angleType: 0, // 0:  隨機其他模式形式 1: 飛向玩家 2: 隨機飛向
 		$initCount: 5, // 初始數量
-		$incEvery: 3, // 每Ｎ關加一個
+		$incEvery: 2, // 每Ｎ關加一個
 	},
 	EntityEnemyDestroyer: { // 中型敵人(會生小怪)
 		...ConfigBase.EntityEnemyDestroyer,

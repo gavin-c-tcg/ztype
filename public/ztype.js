@@ -5293,7 +5293,7 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             Config.onBeforeNextWave?.(ig)
             // debugger
             this.wave.wave++;
-            this.wave.spawnWait = (this.wave.spawnWait * 0.97).limit(0.2, 1);
+            // this.wave.spawnWait = (this.wave.spawnWait * 0.97).limit(0.2, 5);
             this.wave.currentSpawnWait = this.wave.spawnWait;
             this.wave.spawn = [];
             this.speedFactor *= this.wave.speedIncrease;
@@ -5818,7 +5818,7 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             fragment: 0,
             wave: 0,
             spawn: [],
-            spawnWait: 1,
+            spawnWait: Config.spawnWait ?? 1,
             healthBoost: 0,
             speedIncrease: Config.speedIncrease ?? 1.01,
             types: [{
@@ -5839,7 +5839,7 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             fragment: 0,
             wave: 0,
             spawn: [],
-            spawnWait: 0.7,
+            spawnWait: Config.spawnWait ?? 0.7,
             healthBoost: 0,
             speedIncrease: Config.speedIncrease ?? 1.05, // 敵人速度 基數
             types: [{
