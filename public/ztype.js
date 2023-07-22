@@ -3673,10 +3673,39 @@ ig.baked = true;
 ig.module('game.menus.title').requires('game.menus.base', 'game.menus.detailed-stats', 'game.ease').defines(function() {
     MenuItemNormalMode = MenuItem.extend({
         getText: function() {
-            return 'new game';
+            return 'Start Game';
         },
         ok: function() {
             ig.game.setGame();
+        },
+    });
+
+    
+    MenuItemClear = MenuItem.extend({
+        getText: function() {
+            return 'clear data';
+        },
+        ok: function() {
+            localStorage.clear();
+            location.href = location.href
+        },
+    });
+
+    MenuItemGoToGame1 = MenuItem.extend({
+        getText: function() {
+            return 'game 1';
+        },
+        ok: function() {
+            location.href = location.href.split('?')[0] + '?game=1'; 
+        },
+    });
+
+    MenuItemGoToGame2 = MenuItem.extend({
+        getText: function() {
+            return 'game 2';
+        },
+        ok: function() {
+            location.href = location.href.split('?')[0] + '?game=2'; 
         },
     });
     
@@ -3685,7 +3714,7 @@ ig.module('game.menus.title').requires('game.menus.base', 'game.menus.detailed-s
         scale: 0.75,
         y: 0,
         init: function() {
-            this.itemClasses = [MenuItemNormalMode,];
+            this.itemClasses = [MenuItemNormalMode, MenuItemGoToGame1, MenuItemGoToGame2, MenuItemClear];
             
             this.parent();
             this.items[0].y = 740;
