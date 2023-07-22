@@ -38,7 +38,11 @@ const getZh2 = (zh) => {
 	 .replaceAll("；",';')
 	 .split(";")
 	 .map((el) => el.trim())
-	 .sort((a,b)=> a.length - b.length)
+	 .sort((a,b)=> { // 字數少的在前面，字數1的在最後面
+		if(a.length === 1 ) return 1;
+		if(b.length === 1 ) return -1;
+		return	a.length - b.length
+	})
 	 ;
 
 	 return `${ zhList[0] ?? "" } ${ zhList[1] ?? "" }`.trim();
