@@ -143,3 +143,15 @@ var ConfigBase = {
 		volume: 0.8,
 	},
 };
+
+
+const Tools={
+	upSeed:(speedBase)=>{
+		Object.entries(ig.game.targets).forEach((v,k)=>{
+			v[1].forEach((v2,k2)=>{
+				// console.log(v2);
+				v2.speed = v2.speed * speedBase;
+			})
+		});
+	}
+}

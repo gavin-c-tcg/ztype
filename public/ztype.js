@@ -4324,8 +4324,10 @@ ig.module('game.entities.enemy-mine').requires('game.entities.enemy').defines(fu
             this.parent(x, y, settings);
             this.addAnim('idle', 1, [0]);
             
-            if( Config.EntityEnemyMine.$angleType ===0){
+            if( Config.EntityEnemyMine.$angleType === 0){
                 this.angleType = Math.random() > 0.5 ? 1 : 2;
+            } else {
+                this.angleType = Config.EntityEnemyMine.$angleType;
             }
 
             if(this.angleType === 1){
