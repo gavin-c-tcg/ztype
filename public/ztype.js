@@ -4175,6 +4175,14 @@ ig.module('game.entities.enemy').requires('impact.entity', 'impact.font', 'game.
             // ig.system.context.fillRect(bx, by + 5, w + 8, 24);
             if (this.targeted) {
                 ig.system.context.fillRect(bx, by + 5, w + 8, 24);
+
+                if(Config.showSetWordFull) {
+                    const oAlpha = this.font.alpha ;
+                    this.font.alpha = 0.3;
+                    this.font.draw(this.word, x + 2, y + 6, ig.Font.ALIGN.RIGHT);
+                    this.font.alpha = oAlpha;
+                }
+
                 this.fontActive.draw(this.remainingWord, x + 2, y + 6, ig.Font.ALIGN.RIGHT);
             } 
             else {

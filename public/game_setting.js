@@ -3,7 +3,7 @@
 var Game1 = {
 	...ConfigBase,
 	statisticType: "accuracy", // 正確率
-
+	speedIncrease: 1.1, // 敵人速度 基數倍數
 	speakEnglish: true, // 是否發音英文
 	speakMap: false, // 是否發音翻譯
 

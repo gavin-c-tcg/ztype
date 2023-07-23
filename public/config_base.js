@@ -11,6 +11,8 @@ var ConfigBase = {
 	maxHistoryLength: 30, // 最大历史记录长度
 
 	mapWordPosition: 2, // 1: 顯示在單字上方 2: 顯示在單字下方
+
+	showSetWordFull: true, // 是否顯示主目標完整單字
 	showMapWord: true, // 是否顯示翻譯單字
 	showSetWord: true, // 是否顯示目標單字
 
