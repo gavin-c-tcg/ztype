@@ -2,10 +2,11 @@
 
 var Game1 = {
 	...ConfigBase,
-	statisticType: "accuracy", // 正確率
-	speedIncrease: 1.1, // 敵人速度 基數倍數
+	statisticType :"score", //統計圖表類型: score 分數, streak 正確敲擊數, wave 關卡數, accuracy 正確率, kills 殺敵數
+	speedIncrease: 0.95, // 每關 敵人速度調整 基數倍數
+	speedBase: 2, // 遊戲難度 速度調整 基數倍數
 	speakEnglish: true, // 是否發音英文
-	speakMap: false, // 是否發音翻譯
+	speakMap: true, // 是否發音翻譯
 
 
 	// ====================================
@@ -45,7 +46,9 @@ var Game2 = {
 
 
 
-	speedIncrease: 1, // 敵人速度 基數倍數
+	speedIncrease: 0.95, // 每關 敵人速度調整 基數倍數
+	speedBase: 2, // 遊戲難度 速度調整 基數倍數
+	
 	spawnWait: 2, // 生成敵人間隔
 	
 

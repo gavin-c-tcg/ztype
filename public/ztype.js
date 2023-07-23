@@ -4115,6 +4115,9 @@ ig.module('game.entities.enemy').requires('impact.entity', 'impact.font', 'game.
             this.dieTimer = new ig.Timer(0);
             ig.game.registerTarget(this.word.charAt(0), this);
             this.angle = this.angleTo(ig.game.player);
+
+            this.speed *= Config.speedBase;
+            
             if (!ig.ua.mobile) {
                 this.speed *= ig.game.speedFactor;
             }
