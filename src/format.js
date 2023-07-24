@@ -75,7 +75,7 @@ const map = newWords.reduce((acc,el)=>{
 
 
 // 遊戲單字
-const set = newWords.reduce((acc,el)=>{
+const en = newWords.reduce((acc,el)=>{
 	const key = el.en.length > 12 ? 12 : el.en.length;
 	if(!acc[key]) acc[key] = [];
 	acc[key].push(el.en);
@@ -84,34 +84,58 @@ const set = newWords.reduce((acc,el)=>{
 
 
 console.log(
-	Object.entries(set).map(([key,value])=> `${key}: ${value.length}`).join("\n")
+	Object.entries(en).map(([key,value])=> `${key}: ${value.length}`).join("\n")
 );
 console.log("===================");
 
 //================================================
-// 單字分組
-const minGroup = 5; // 最少幾個單字
-if(!Number.isNaN(Number(process.argv[2])) && !Number.isNaN(Number(process.argv[3]))){
-	Object.entries(set).forEach(([key,value])=> {
-		set[key] = value.filter((el,i)=>{
-			if(value.length < minGroup || value.length < Number(process.argv[2]) ) return true;
-			return i % Number(process.argv[2]) === Number(process.argv[3])
+
+const groupNumber = !Number.isNaN(Number(process.argv[2])) ? Number(process.argv[2]) : 0;
+
+const set = {
+	// [groupNumber] :{ "1" : []}
+};
+if( groupNumber > 1 ){
+	Array.from({length: groupNumber}).forEach((_,subEnNumber)=>{
+		Object.entries(en).forEach(([key,value])=> {
+			if(!set[subEnNumber]) set[subEnNumber] = {};
+			set[subEnNumber][key] = value.filter((el,i)=>{
+				return i % groupNumber === subEnNumber
+			});
 		});
+		const total = Object.entries(set[subEnNumber]).reduce((total,[key,value])=> total + value.length,0);
+		console.log(`set[${subEnNumber}] : ${total}`);
+
 	});
 }
+
+//================================================
+// 單字分組
+// const minGroup = 5; // 最少幾個單字
+// if(!Number.isNaN(Number(process.argv[2])) && !Number.isNaN(Number(process.argv[3]))){
+// 	Object.entries(set).forEach(([key,value])=> {
+// 		set[key] = value.filter((el,i)=>{
+// 			if(value.length < minGroup || value.length < Number(process.argv[2]) ) return true;
+// 			return i % Number(process.argv[2]) === Number(process.argv[3])
+// 		});
+// 	});
+// }
 //================================================
 
 
 const json = {
+	setNumberMax: !Number.isNaN(Number(process.argv[2])) ? groupNumber-1 : 0,
+	en,
 	set,
 	map,
 }
 
-console.log(
-	Object.entries(set).map(([key,value])=> `${key}: ${value.length}`).join("\n")
-);
+console.log("===================");
+// console.log(
+// 	Object.entries(en).map(([key,value])=> `${key}: ${value.length}`).join("\n")
+// );
 
-console.log(Object.entries(set).map(([key,value])=> value.length).reduce((a,b)=>a+b,0));
+// console.log(Object.entries(en).map(([key,value])=> value.length).reduce((a,b)=>a+b,0));
 console.log(newWords.length);
 
 

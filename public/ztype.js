@@ -3680,6 +3680,29 @@ ig.module('game.menus.title').requires('game.menus.base', 'game.menus.detailed-s
         },
     });
 
+    MenuItemSoundVolume = MenuItem.extend({
+        getText: function() {
+            return ' -   ' + (ig.WORDS.SetNumber+1) + 'set   + ';
+        },
+        left: function() {
+            ig.WORDS.SetNumber = (ig.WORDS.SetNumber - 1).limit(0, ig.WORDS.SetNumberMax);
+            ig.WORDS.EN = words.set[ig.WORDS.SetNumber];
+            ig.game.wordlist = ig.WORDS.EN;
+        },
+        right: function() {
+            ig.WORDS.SetNumber = (ig.WORDS.SetNumber + 1).limit(0, ig.WORDS.SetNumberMax);
+            ig.WORDS.EN = words.set[ig.WORDS.SetNumber];
+            ig.game.wordlist = ig.WORDS.EN;
+        },
+        click: function() {
+            if (ig.input.mouse.x > 240) {
+                this.right();
+            } else {
+                this.left();
+            }
+        }
+    });
+
     
     MenuItemClear = MenuItem.extend({
         getText: function() {
@@ -3714,7 +3737,7 @@ ig.module('game.menus.title').requires('game.menus.base', 'game.menus.detailed-s
         scale: 0.75,
         y: 0,
         init: function() {
-            this.itemClasses = [MenuItemNormalMode, MenuItemGoToGame1, MenuItemGoToGame2, MenuItemClear];
+            this.itemClasses = [MenuItemNormalMode, MenuItemGoToGame1, MenuItemGoToGame2, MenuItemSoundVolume, MenuItemClear];
             
             this.parent();
             this.items[0].y = 740;
@@ -5220,7 +5243,9 @@ ig.module('game.words.en').defines(function() {
     //     accidentally:'偶然',
     // }
 
-    ig.WORDS.EN = words.set;
+    ig.WORDS.SetNumber = 0;
+    ig.WORDS.SetNumberMax = words.setNumberMax;
+    ig.WORDS.EN = ig.WORDS.EN = words.set[ig.WORDS.SetNumber];
     ig.WORDS.MAP = words.map;
 });
 
