@@ -3788,13 +3788,14 @@ ig.module('game.menus.title').requires('game.menus.base', 'game.menus.detailed-s
             ctx.globalCompositeOperation = 'lighter';
             this.glitchStripe.draw(0, 4000 - this.transition * 4200);
             ctx.restore();
-            var i0y = Math.min(740, ig.system.height / this.scale - 210);
+            const offset = 100;
+            var i0y = Math.min(740 -offset, ig.system.height / this.scale - 210);
             this.items[0].y = ig.ease.inOutQuad(this.transition, i0y, 1600, 1) - 50;
             if (this.items.length > 1) {
-                this.items[1].y = ig.ease.inOutQuad(this.transition, ig.system.height / this.scale - 160, 1900, 1) - 50;
+                this.items[1].y = ig.ease.inOutQuad(this.transition, ig.system.height / this.scale - 160 -offset, 1900, 1) - 50;
             }
             if (this.items.length > 2) {
-                this.items[2].y = ig.ease.inOutQuad(this.transition, ig.system.height / this.scale - 100, 2100, 1) - 50;
+                this.items[2].y = ig.ease.inOutQuad(this.transition, ig.system.height / this.scale - 100 -offset, 2100, 1) - 50;
             }
             this.ship.draw(this.playerPos.x - 1, this.playerPos.y - 7);
             for (var i = 0; i < 10; i++) {
