@@ -55,7 +55,7 @@ var ConfigBase = {
 		}
 
 		if (l >= 2 && l <= maxLength) {
-			console.log("單字長度",l);
+			// console.log("單字長度",l);
 			// 沒有單字
 			if(ig.game.wordlist[l].length === 0) return this.getWordWithLength(l+1,ig);
 			word = this._getBetterWord(ig, () => ig.game.wordlist[l].random());
