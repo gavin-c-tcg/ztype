@@ -49,11 +49,13 @@ var ConfigBase = {
 		l = l > maxLength ? maxLength : l;
 		l = l < minLength ? minLength : l;
 		if(l === maxLength && ig.game.wordlist[l].length === 0) {
+			word = this._getAllWordList(ig).filter((el)=> minLength <= el.length && el.length <= maxLength ).random() ?? word;
 			this._onCreatedWord(word)
 			return word;
 		}
 
 		if (l >= 2 && l <= maxLength) {
+			console.log("單字長度",l);
 			// 沒有單字
 			if(ig.game.wordlist[l].length === 0) return this.getWordWithLength(l+1,ig);
 			word = this._getBetterWord(ig, () => ig.game.wordlist[l].random());
@@ -63,6 +65,13 @@ var ConfigBase = {
 		return word;
 	},
 
+	_getAllWordList: function (ig) { // 單字產生器
+		let wordlist = [];
+		Object.entries(words.set).forEach((v)=>{
+			wordlist = wordlist.concat(v[1]);
+		});
+		return wordlist;
+	},
 	_getBetterWord: function (ig, getWord) { // 單字產生器
 		let temp = getWord();
 		for(let i = 0; i < 26; i++) { // 防止無限迴圈
