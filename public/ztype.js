@@ -3688,11 +3688,13 @@ ig.module('game.menus.title').requires('game.menus.base', 'game.menus.detailed-s
             ig.WORDS.SetNumber = (ig.WORDS.SetNumber - 1).limit(0, ig.WORDS.SetNumberMax);
             ig.WORDS.EN = words.set[ig.WORDS.SetNumber];
             ig.game.wordlist = ig.WORDS.EN;
+            localStorage.setItem('SetNumber', ig.WORDS.SetNumber);
         },
         right: function() {
             ig.WORDS.SetNumber = (ig.WORDS.SetNumber + 1).limit(0, ig.WORDS.SetNumberMax);
             ig.WORDS.EN = words.set[ig.WORDS.SetNumber];
             ig.game.wordlist = ig.WORDS.EN;
+            localStorage.setItem('SetNumber', ig.WORDS.SetNumber);
         },
         click: function() {
             if (ig.input.mouse.x > 240) {
@@ -5244,9 +5246,9 @@ ig.module('game.words.en').defines(function() {
     //     accidentally:'偶然',
     // }
 
-    ig.WORDS.SetNumber = 0;
+    ig.WORDS.SetNumber = localStorage.getItem('SetNumber') | 0;
     ig.WORDS.SetNumberMax = words.setNumberMax;
-    ig.WORDS.EN = ig.WORDS.EN = words.set[ig.WORDS.SetNumber];
+    ig.WORDS.EN = words.set[ig.WORDS.SetNumber];
     ig.WORDS.MAP = words.map;
 });
 
