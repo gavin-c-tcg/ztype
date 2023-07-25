@@ -2,7 +2,7 @@ import fs from 'fs';
 
 
 // read  word.json 
-const words = JSON.parse(fs.readFileSync('words.json', 'utf8'));
+const words = JSON.parse(fs.readFileSync('words2.json', 'utf8'));
 
 
 const getZh = (zh) => {

@@ -5655,6 +5655,7 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
                         this.keyboard.showMultiplier(this.multiplier);
                     }
                     if (target.dead) {
+                        Config.onKillTarget(target,ig);
                         this.kills++;
                         this.setExpectedKeys();
                     } 
@@ -5698,6 +5699,7 @@ ig.module('game.main').requires('impact.game', 'impact.font', 'game.menus.about'
             ig.music.fadeOut(1);
         },
         showGameOverScreen: function() {
+            Config.onGameOver(ig);
             this.menu = new MenuGameOver();
             if (this.adPage && !localStorage.getItem('removeAds')) {
                 this.adPage.show();

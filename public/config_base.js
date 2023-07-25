@@ -95,7 +95,14 @@ var ConfigBase = {
 		}
 		// console.log("下一關前",ig);
 	},
-
+	onKillTarget: function (target,ig) { // 殺死目標
+		const kills = JSON.parse(localStorage.getItem("kills") ?? '{}');
+		kills[target.word] = (kills[target.word] ?? 0) + 1;
+		localStorage.setItem("kills", JSON.stringify(kills));
+	},
+	onGameOver: function (ig) { // 遊戲結束
+		Tools.showKills();
+	},
 	// ====================================
 
 	EntityEnemyMine: { // 小型敵人
@@ -158,12 +165,25 @@ var ConfigBase = {
 
 
 const Tools={
-	upSeed:(speedBase)=>{
+	upSeed:(speedBase=100)=>{
 		Object.entries(ig.game.targets).forEach((v,k)=>{
 			v[1].forEach((v2,k2)=>{
 				// console.log(v2);
 				v2.speed = v2.speed * speedBase;
 			})
 		});
-	}
+	},
+	showKills:()=>{
+		const kills = JSON.parse(localStorage.getItem("kills") ?? '{}');
+		// sort by value
+		const sortable = Object.fromEntries(
+			Object.entries(kills).sort(([,a],[,b]) => b-a)
+		);
+		console.log("累計殺敵數",JSON.stringify(sortable,null,2));
+		console.log("累計殺敵總類數",Object.keys(kills).length);
+		console.log("(使用 Tools.clearKills() 清除)");
+	},
+	clearKills:()=>{
+		localStorage.setItem("kills", JSON.stringify({}));
+	},
 }
